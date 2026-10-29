@@ -1,0 +1,5 @@
+# Differential equation
+
+[Differential equation (Wikipedia)](https://en.wikipedia.org/wiki/Differential_equation)
+
+In mathematics, a differential equation is an equation that relates one or more unknown functions and their derivatives.[1] In applications, the functions generally represent physical quantities, the derivatives represent their rates of change, and the differential equation defines a relationship between the two. Such relations are common in mathematical models and scientific laws; therefore, differential equations play a prominent role in many disciplines including engineering, physics, economics, and biology.
