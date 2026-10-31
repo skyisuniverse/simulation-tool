@@ -17,7 +17,7 @@ Here is an article about Finite element method from Wikipedia:
 
 https://en.wikipedia.org/wiki/Finite_element_method
 
-1st paragraph:
+## 1st paragraph:
 
 > Finite element method (FEM) is a popular method for numerically solving differential equations arising in engineering and mathematical modeling. Typical problem areas of interest include the traditional fields of structural analysis, heat transfer, fluid flow, mass transport, and electromagnetic potential. Computers are usually used to perform the calculations required. With high-speed supercomputers, better solutions can be achieved and are often required to solve the largest and most complex problems.
 
@@ -44,7 +44,7 @@ The **Finite Element Method (FEM)** is a computational technique used by simulat
 
 The **Finite Element Method (FEM)** is the core technology behind modern engineering simulation tools. It works by turning complex, unanswerable real-world physics problems into massive but straightforward math puzzles that computers can solve (*using numerical approximation*). By dividing a 3D digital model into a dense mesh of microscopic blocks, the software can accurately simulate complex scenarios—like structural stress, heat transfer, or fluid pressures—allowing engineers to test and refine prototypes completely virtually before anything is physically built.
 
-## Option 3: The "Macro-to-Micro" Approach (Conceptual & Direct)
+### Option 3: The "Macro-to-Micro" Approach (Conceptual & Direct)
 
 *Best for a clean, professional, yet gentle introduction that mirrors how the algorithm actually steps through a problem.*
 
@@ -62,3 +62,26 @@ The **Finite Element Method (FEM)** is a highly effective method for simulating 
 ## ToDo
 
 - word "answers" could also be unfamiliar without domain-specific knowledge, that part could possibly be rewritten
+
+---
+
+## 2nd-paragraph:
+
+> FEM is a general numerical method for solving partial differential equations in two- or three-space variables (i.e., some boundary value problems). There are also studies about using FEM to solve high-dimensional problems.[1] To solve a problem, FEM subdivides a large system into smaller, simpler parts called finite elements. This is achieved by a particular space discretization in the space dimensions, which is implemented by the construction of a mesh of the object: the numerical domain for the solution that has a finite number of points. FEM formulation of a boundary value problem finally results in a system of algebraic equations. The method approximates the unknown function over the domain.[2] The simple equations that model these finite elements are then assembled into a larger system of equations that models the entire problem. FEM then approximates a solution by minimizing an associated error function via the calculus of variations.
+
+Such definition could be difficult to understand for a newcomer into the field due to unfamiliarity with terms like:
+
+- numerical method
+- (solving) partial differential equations
+- two- or three-space variables
+- boundary value problems
+- high-dimensional problems
+- (solve) a problem
+- (space) discretization
+- (construction of) a mesh
+- numerical domain
+- solution
+- approximation of the unknown function over the domain
+- error function
+- calculus of variations
+- minimizing an associated error function via the calculus of variations
