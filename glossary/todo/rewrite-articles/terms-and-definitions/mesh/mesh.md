@@ -30,7 +30,6 @@
 
 1. **Lack of Volumetric / Physical Data**: Graphics or gaming polygon meshes are skin-deep (surface shells) and lack proper internal volume continuity, material orientation, or manifold integrity needed for load transfer. [Meshing in FEA, CFD and manufacturing (ntop)](https://www.ntop.com/resources/blog/meshing-in-fea-cfd-manufacturing/)
 2. **Poor Element Quality**: Polygon meshes often have extreme aspect ratios, overlapping faces, or non-manifold geometry that cause FEA stiffness matrices to become singular or fail numerical convergence. [The Fundamentals of FEA Meshing for Structural Analysis](https://ansys.synopsys.com/blog/fundamentals-of-fea-meshing-for-structural-analysis)
-3. **Defeaturing and Preparation**: Moving a CAD or art model into FEA requires defeaturing (stripping out logos, fillets, or visual noise) and rebuilding the domain into well-conditioned tetrahedral or hexahedral elements. [The Fundamentals of Mesh Generation in Finite Element Analysis](https://www.fea-academy.com/pdf/fea-academy-the-fundamentals-of-mesh-generation-in-finite-element-analysis.pdf), [The Fundamentals of FEA Meshing for Structural Analysis](https://ansys.synopsys.com/blog/fundamentals-of-fea-meshing-for-structural-analysis)
 
 You can read more about preprocessing best practices via the [SimScale Mesh Guide](https://www.simscale.com/docs/simwiki/preprocessing/what-is-a-mesh/) or review element foundations in [The Fundamentals of Mesh Generation in Finite Element Analysis](https://www.fea-academy.com/pdf/fea-academy-the-fundamentals-of-mesh-generation-in-finite-element-analysis.pdf).
 
@@ -39,3 +38,5 @@ Are you trying to [convert a 3D model or CAD file into an FEA mesh](https://www.
 ----
 
 [Meshing in FEA: Element Types, Quality Criteria & Best ...](https://sdcverifier.com/structural-engineering-101/meshing-in-finite-element-analysis/)
+
+ [The Fundamentals of Mesh Generation in Finite Element Analysis](https://www.fea-academy.com/pdf/fea-academy-the-fundamentals-of-mesh-generation-in-finite-element-analysis.pdf), [The Fundamentals of FEA Meshing for Structural Analysis](https://ansys.synopsys.com/blog/fundamentals-of-fea-meshing-for-structural-analysis)
