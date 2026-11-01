@@ -11,6 +11,8 @@ Articles should:
 - domain-specific terms can be present if they don't make articles less readable and more difficult for reasoning
 - could be nice if clarifications and domain-specific scientific terms are provided alongside generic surface-level (easily digestible) knowledge (high-level general understanding) (in expandable way - could be in parentheses, tooltips or somehow else)
 - be neutral in tone (not have any intimidating content)
+- structural and narrative consistency should be maintained throughout the entire article
+
 
 ----
 
@@ -57,3 +59,11 @@ For any user without significant knowledge in the given domain, the steps for un
 **2 steps from reading an article to understanding it**.
 
 - optional expendables to dive deeper into the subject matter, details, terms and any kind of domain specificity if the user wants to
+
+## Observations
+
+(For articles with high domain specificity) After repetitive article exploration attempts some knowledge starts to build up and is memorised, what makes understanding during new attempts much easier. For cases, where (even basic) knowledge is formed confusion is gone entirely. It thus makes sense to:
+
+- Consider acceptance criteria (requirements) for each article (similar to user stories) and keep each article's content in accordance to it
+- Assume integrating practice of articles' acceptance criteria and high content quality as necessary part of knowledge engineering culture and continuous maintenance of it
+- Have a dedicated place in the article's detail page (in some form of expandable) to inform users about possible confusion related to domain-specificity of the content and gradual alleviation of it with build-up of knowledge (to keep users informed, ready and more adaptive to (possibly non-trivial scientific) content)
