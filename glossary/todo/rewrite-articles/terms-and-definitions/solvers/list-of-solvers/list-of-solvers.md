@@ -93,19 +93,41 @@ The broader landscape of 3D engineering simulation contains specialized numerica
 
 ## 2. Acoustic & Wave Propagation Solvers
 
+- **Helmholtz Solvers**: Solves the frequency-domain wave equation to calculate steady-state acoustic pressures and sound radiation patterns within or around a structure (e.g., optimizing car cabin acoustics, concert hall sound projection, or speaker enclosure designs).
+
+- **Ray Tracing / Geometrical Acoustic Solvers**: Traces high-frequency acoustic waves as rays that specularly or diffusely reflect off geometries, bypassing small-scale mesh calculations (e.g., mapping radar signatures across kilometers or analyzing long-range sonar propagation under water).
+
+
 ## 3. Advanced & Alternative CFD Solvers
+
+- **Direct Simulation Monte Carlo (DSMC) Solvers**: Simulates low-density, rarefied gas dynamics by using a probabilistic approach to track thousands of model particles colliding with each other and surfaces (e.g., predicting aerodynamic drag on satellites in the upper atmosphere/thermosphere where continuum mechanics assumptions fail).
+
+- **Potential Flow / Vortex Lattice Solvers**: Solves Laplace's equation for velocity potential, ignoring viscosity and rotation entirely, to rapidly determine lifting pressures across thin surfaces (e.g., early-stage conceptual aircraft wing design or high-speed hydrofoil profiles).
 
 ## 4. Multiscale, Molecular & Materials Solvers
 
+- **Molecular Dynamics (MD) Solvers**: Solves Newton's classic equations of motion for individual atoms or molecules utilizing empirical interatomic potential forces (e.g., predicting the cracking and degradation of nano-composite polymers or thermal conductivity of graphene sheets).
+
+- **Density Functional Theory (DFT) Solvers**: Solves the quantum mechanical Schrödinger equation using electron density approximations to predict materials properties from first principles (e.g., calculating the electrochemical energy storage limits of next-generation lithium-metal batteries).
+
+- **Phase-Field Solvers**: Solves diffuse-interface equations (like the Allen-Cahn or Cahn-Hilliard equations) to predict microstructural evolution without explicitly tracking physical interfaces (e.g., calculating dendritic crystal growth during metal alloy solidification or micro-crack propagation patterns).
+
 ## 5. Earth Science & Large-Scale Systems Solvers
 
-...
+- **Magnetohydrodynamics (MHD) Solvers**: Couples Navier-Stokes equations with Maxwell’s equations to simulate the behavior of electrically conducting fluids like liquid metals or ionized gases (e.g., controlling magnetic confinement in nuclear fusion reactors or tracking solar flare paths).
+
+- **Poromechanics Solvers**: Solves coupled equations governing fluid pressure and solid skeleton deformation in porous media (e.g., predicting oil reservoir compaction, land subsidence, or groundwater seepage through earthen dams).
+
+Because nature is continuous, mathematicians are constantly creating hybrid combinations of these methods. Are you trying to solve a complex **multiphysics problem** (like an object heating up, melting, and then flowing), or are you focusing on **nano-scale materials**?
+
 
 ---
 
 # Part 3
 
-...
+From conversation with Gemini on [solvers (part 3) (for nano-scale materials)](https://share.google/aimode/07jyFplZYJ4MT6SEB)
+
+When simulation scales down to nanomaterials and nanoelectronics (1 to 100 nanometers), traditional continuum mechanics (which assume matter is a solid, continuous block) completely break down. At this boundary, engineering must account for quantum effects, discrete atomic structures, and ballistic particle transport.
 
 ---
 
