@@ -67,3 +67,5 @@ For any user without significant knowledge in the given domain, the steps for un
 - Consider acceptance criteria (requirements) for each article (similar to user stories) and keep each article's content in accordance to it
 - Assume integrating practice of articles' acceptance criteria and high content quality as necessary part of knowledge engineering culture and continuous maintenance of it
 - Have a dedicated place in the article's detail page (in some form of expandable) to inform users about possible confusion related to domain-specificity of the content and gradual alleviation of it with build-up of knowledge (to keep users informed, ready and more adaptive to (possibly non-trivial scientific) content)
+
+When writing an article content, some doubts about best content of paragraphs or shape (particular words, phrasing, etc.) can also be gone and self-resolved with time as a result of gradual knowledge build-up and background processing for finding a solution.
