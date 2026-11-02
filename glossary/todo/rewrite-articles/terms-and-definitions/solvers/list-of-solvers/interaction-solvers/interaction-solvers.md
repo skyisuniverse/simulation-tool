@@ -18,3 +18,20 @@ From [List of solvers (Part 2)](../list-of-solvers.md)
 can this be useful in the context of atoms / molecules as a basis for simulation (rather than elements) ?
 
 > - **Discrete Element Method (DEM) Solvers**: Tracks the kinematics and forces of individual granular particles colliding with each other and with rigid walls over time (e.g., simulating bulk solids handling, agricultural grain silos, rock crushing machines, or pharmaceutical pill mixing).
+
+---
+
+From [List of solvers (Part 3)](../list-of-solvers.md)
+
+> ## 4. Multiscale Bridging Solvers
+>
+> - **Atomistic-to-Continuum (AtC) Solvers**: A hybrid method that couples an explicit molecular dynamics solver (for localized atomic cracks/defects) directly to a standard Finite Element Analysis (FEA) continuum solver at the boundary region (e.g., measuring how a microscopic grain-boundary defect causes a macro-scale failure in a turbine blade).
+
+
+---
+
+From [List of solvers (Part 5)](../list-of-solvers.md)
+
+## 4. Kinetic & Plasma Dynamics Synthesis Solvers
+
+- **Chemical Reduction Kinetic Solvers**: Solves coupled differential reaction equations that balance heating, reducing agents, and capping agents over a set time timeline. It bridges chemical engineering with physical geometry to map synthesis rates (e.g., tracking the bottom-up chemical reduction of a metal salt solution into a colloidal metallic nanoparticle).
