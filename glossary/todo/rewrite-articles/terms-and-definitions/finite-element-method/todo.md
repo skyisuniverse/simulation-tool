@@ -1,0 +1,1 @@
+- [ ] Add steps like pre-processing, post-processing to article on finite element method (from [solvers](../solvers/solvers.md))
