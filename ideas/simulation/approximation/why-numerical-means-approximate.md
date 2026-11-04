@@ -16,6 +16,21 @@ From conversation with Gemini on [Numerical Model Approximation](https://share.g
 - **Simplified Calculus**: The software converts exact differential equations (which describe continuous physics) into a system of simpler algebraic equations that a computer can solve using arithmetic.
 - **Mesh Dependency**: Because it is an approximation, the accuracy depends on the mesh size. A finer mesh yields an answer closer to the true physical reality, but it never becomes a mathematically perfect, exact solution.
 
+## Analytical vs. Numerical Solutions
+
+
+| Feature | Analytical Solution | Numerical Solution (FEA) |
+| :--- | :--- | :--- |
+| **Method** | Exact mathematical formulas | Computer-driven numerical algorithms |
+| **Accuracy** | 100% exact | Approximate (converges toward exact) |
+| **Geometry** | Limited to very simple shapes (e.g., a perfect cylinder) | Can analyze highly complex, irregular structures |
+
+If you are working on a specific FEA problem, tell me:
+
+- What **software** you are using?
+- What **type of structure** you are analyzing?
+
+I can share tips on how to perform a **mesh convergence** study to ensure your approximations are highly accurate.
 
 ----
 

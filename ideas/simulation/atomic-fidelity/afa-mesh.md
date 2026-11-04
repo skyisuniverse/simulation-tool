@@ -17,4 +17,4 @@ From [Mesh Dependency](./mesh-dependency.md)
 
 -----
 
-> if nanobot swarms were real, could
+> if nanobot swarms were real, could it be a solution to such atomic-level scanning?
