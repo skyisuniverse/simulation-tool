@@ -1,0 +1,23 @@
+{
+  "name": "simulation-tool",
+  "version": "0.0.1",
+  "description": "From conversation with Gemini on [Engineering Simulation Tool Architecture](https://share.google/aimode/bx6WT8bia9guHG5Jd)",
+  "homepage": "https://github.com/skyisuniverse/simulation-tool#readme",
+  "bugs": {
+    "url": "https://github.com/skyisuniverse/simulation-tool/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyisuniverse/simulation-tool.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "generate:changelog": "./node_modules/.bin/git-cliff --config changelog-template.toml --output CHANGELOG.md"
+  },
+  "devDependencies": {
+    "git-cliff": "^2.14.2"
+  }
+}
