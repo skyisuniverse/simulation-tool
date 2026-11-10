@@ -25,9 +25,58 @@ Should we consider the following? :
 
 ## 2. Pre-Processing & Mesh Generation
 
+> Transforming 3D geometry into a discrete numerical environment (discretization) is the foundation of structural and fluid dynamics solvers.
+
+- [ ] (Automated Spatial) Meshing
+  > Algorithms to generate structured (Hexahedral) and unstructured (Tetrahedral, Polyhedral) meshes based on geometry complexity. (?)
+
+- [ ] (Adaptive) Mesh Refinement (AMR) 
+  > Intelligent algorithms that automatically refine the mesh (densify nodes) in high-stress concentration areas or sharp fluid gradient paths during calculation. (?)
+
+- [ ] Boundary Layer Meshing
+  > ?
+
+- [ ] Mesh Quality Diagnostics
+  > Interactive heatmaps evaluating aspect ratio, skewness, Jacobian ratio, and orthogonality to flag elements that might break solver stability. (?)
+
+- [ ] Boundary Condition Mapping
+  > An intuitive GUI to apply spatial physics attributes (e.g. fixed constraints, frictionless supports, forces, pressure fields, thermal fluxes, and velocities). (?)
+
 ## 3. Physics Solvers & Multi-Physics Interaction
 
+> The core engine of the app handles the complex mathematical equations (FEA, CFD, DEM) governing real-world physics.
+
+- Finite Element Analysis (FEA) Suite
+  - > Linear Static: For standard load and structural stress testing. (?)
+  - > Nonlinear Materials/Geometric: For plastics, rubbers, large deformations, or metal yielding. (?)
+  - > Modal & Harmonic: To identify natural frequencies, resonance risks, and vibration behaviors. (?)
+  - > • Transient/Dynamic: Exploded views, impact drop tests, and crash simulations over time. (?)
+
+- Computational Fluid Dynamics (CFD) Suite
+  - > Laminar & Turbulent Modeling: Multiple turbulence closures (\(k-\epsilon\), \(k-\omega\) SST) for aerodynamic or pipe flows. (?)
+  - > Multiphase Flow: Simulating liquid-gas mixtures, splashing, boiling, cavitation, etc. (?)
+
+- Thermal & Heat Transfer Engine
+  > Conduction, convection, and radiative heat transfer simulations, including solar radiation or internal heat generation. (?)
+
+- Coupled Multi-Physics Solvers
+  > Simultaneous calculation of intertwined phenomena, such as Fluid-Structure Interaction (FSI) or Joule heating (conjugate thermal-electromagnetic fields). (?)
+
+
 ## 4. Material Intelligence
+
+> Physics engines rely (entirely?) on accurate, mathematically sound material properties.
+
+- (Nonlinear ?) [Material Library](./materials/materials-library.md)
+  > Built-in repository of isotropic, orthotropic, and anisotropic [material profiles](./materials/material-profiles.md), complete with stress-strain curves. (?)
+
+- [Material Modeler](./materials/material-modeler.md)
+  - > Specialized tools to simulate (composites?), ply layups, fiber orientations, and delamination risks in carbon fiber or reinforced plastics. (?)
+  - > A tool for creating / simulating metals, polymers, composites, etc.
+
+- [Custom Material Fitter](./materials/custom-material-fitter.md)
+  > Import function for raw laboratory data (e.g., tensile test CSV files) to automatically generate hyperelastic or plastic material models. (?)
+
 
 ## 5. Post-Processing & Interactive Visualizations
 
