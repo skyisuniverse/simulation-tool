@@ -84,7 +84,19 @@ Should we consider the following? :
 Graphic tools to parse data points into actionable insights.
 
 - [Dynamic Contour Heatmaps](./graphics/dynamic-contour-heatmaps.md)
-  > High-performance, GPU-accelerated rendering of physics (e.g. Von Mises stress, strain, temperature fields, pressure drops, etc.) on the 3D model.
+  > High-performance, GPU-accelerated rendering of physics (e.g. Von Mises stress, strain, temperature fields, pressure drops, etc.) on the 3D model. (?)
+
+- [3D Vector Fields & Streamlines](./graphics/3D-vector-fields-and-streamlines.md)
+  > Interactive particles, smoke traces, or arrows showing fluid flow paths, velocity magnitudes, and vortex regions. (?)
+
+- [Slicing Planes (Cut Planes?) & Clipping](./graphics/slicing-planes-&-clipping.md)
+  > Dynamic, movable cutting planes to inspect stresses, temperatures, or flow vectors hidden inside internal cavities. (?)
+
+- [(Deformation ?) Animation](./graphics/animation/deformation-animation.md)
+  > Scale-adjustable animated playbacks of structures bending, buckling, or vibrating, complete with video export functions. (?)
+
+- [Virtual Probes & Iso-Surfaces](./graphics)
+  > Click-to-probe tools that read exact scalar values on specific nodes, paired with surfaces showing uniform value fields (e.g., constant pressure shells). (?)
 
 ## 6. Generative Design & Optimization
 
