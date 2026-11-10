@@ -75,10 +75,16 @@ Should we consider the following? :
   - > A tool for creating / simulating metals, polymers, composites, etc.
 
 - [Custom Material Fitter](./materials/custom-material-fitter.md)
-  > Import function for raw laboratory data (e.g., tensile test CSV files) to automatically generate hyperelastic or plastic material models. (?)
+  - > Import function for raw laboratory data (e.g., tensile test CSV files) to automatically generate hyperelastic or plastic material models. (?)
+  - > A tool that allows to create (generate?) custom materials from imported data (raw laboratory data (e.g., [tensile test](./tensile-tests.md) CSV files))
 
 
 ## 5. Post-Processing & Interactive Visualizations
+
+Graphic tools to parse data points into actionable insights.
+
+- [Dynamic Contour Heatmaps](./graphics/dynamic-contour-heatmaps.md)
+  > High-performance, GPU-accelerated rendering of physics (e.g. Von Mises stress, strain, temperature fields, pressure drops, etc.) on the 3D model.
 
 ## 6. Generative Design & Optimization
 
@@ -95,3 +101,20 @@ Should we consider the following? :
 ## Thoughts
 
 - [ ] (from 1. Geometry Setup & CAD Interoperability) CAD Import/Export or File Import/Export (better choose File Import/Export, because we might consider expanding the importable domain beyond CAD? do AFA-meshes fall into CAD category? other possible imports?)
+
+---  
+
+## ToDo
+
+- Process files (for features):
+  - [ ] [sim-types-as-features-1](../ideas/Types-of-simulation/implementation.md)
+  - [ ] [sim-types-as-features-2](../ideas/Types-of-simulation/sim-types-as-features-1.md)
+  - [ ] [sim-types-as-features-2-1](../ideas/Types-of-simulation/sim-types-as-features-2.md)
+  - [ ] [sim-types-as-features-2-1](../ideas/Types-of-simulation/sim-types-as-features-2-1.md)
+
+- Process conversations with Gemini:
+  - [ ] [3D Engineering Simulation Features (1)](https://share.google/aimode/QhmgPvKcQ3wLzyZKi)
+  - [ ] [3D Engineering Simulation Features (2)](https://share.google/aimode/zixCSXASA4SxPmH1p)
+  - [ ] [3D Engineering Simulation Features (3)](https://share.google/aimode/bFpqAW7Gicj5p6NpT)
+  - [ ] [3D Engineering Simulation Features (4)](https://share.google/aimode/VJsfaM1VEUeSbiHMU)
+  - [ ] [3D Engineering Simulation Features (5)](https://share.google/aimode/bExxWMb4Bhu0WrjMI)
