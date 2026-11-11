@@ -27,39 +27,39 @@ Should we consider the following? :
 
 > Transforming 3D geometry into a discrete numerical environment (discretization) is the foundation of structural and fluid dynamics solvers.
 
-- [ ] (Automated Spatial) Meshing
+- [ ] (Automated Spatial) [Meshing](./meshing/meshing.md)
   > Algorithms to generate structured (Hexahedral) and unstructured (Tetrahedral, Polyhedral) meshes based on geometry complexity. (?)
 
-- [ ] (Adaptive) Mesh Refinement (AMR) 
+- [ ] (Adaptive) [Mesh Refinement (AMR)](./meshing/mesh-refinement.md)
   > Intelligent algorithms that automatically refine the mesh (densify nodes) in high-stress concentration areas or sharp fluid gradient paths during calculation. (?)
 
 - [ ] Boundary Layer Meshing
   > ?
 
-- [ ] Mesh Quality Diagnostics
+- [ ] [Mesh Quality Diagnostics](./meshing/mesh-quality-diagnostics.md)
   > Interactive heatmaps evaluating aspect ratio, skewness, Jacobian ratio, and orthogonality to flag elements that might break solver stability. (?)
 
-- [ ] Boundary Condition Mapping
+- [ ] (Boundary ?) [Condition Mapping](./meshing/condition-mapping.md)
   > An intuitive GUI to apply spatial physics attributes (e.g. fixed constraints, frictionless supports, forces, pressure fields, thermal fluxes, and velocities). (?)
 
 ## 3. Physics Solvers & Multi-Physics Interaction
 
 > The core engine of the app handles the complex mathematical equations (FEA, CFD, DEM) governing real-world physics.
 
-- Finite Element Analysis (FEA) Suite
+- [Finite Element Analysis (FEA) Suite](./solvers/solvers/finite-element-analysis-(FEA)-suite.md)
   - > Linear Static: For standard load and structural stress testing. (?)
   - > Nonlinear Materials/Geometric: For plastics, rubbers, large deformations, or metal yielding. (?)
   - > Modal & Harmonic: To identify natural frequencies, resonance risks, and vibration behaviors. (?)
   - > • Transient/Dynamic: Exploded views, impact drop tests, and crash simulations over time. (?)
 
-- Computational Fluid Dynamics (CFD) Suite
+- [Computational Fluid Dynamics (CFD) Suite](./solvers/solvers/computational-fluid-dynamics-(CFD)-suite.md)
   - > Laminar & Turbulent Modeling: Multiple turbulence closures (\(k-\epsilon\), \(k-\omega\) SST) for aerodynamic or pipe flows. (?)
   - > Multiphase Flow: Simulating liquid-gas mixtures, splashing, boiling, cavitation, etc. (?)
 
-- Thermal & Heat Transfer Engine
+- [Thermal & Heat Transfer Engine](./solvers/solvers/thermal-and-heat-transfer.md)
   > Conduction, convection, and radiative heat transfer simulations, including solar radiation or internal heat generation. (?)
 
-- Coupled Multi-Physics Solvers
+- [Coupled Multi-Physics Solvers](./solvers/solvers/coupled-multi-physics-solvers.md)
   > Simultaneous calculation of intertwined phenomena, such as Fluid-Structure Interaction (FSI) or Joule heating (conjugate thermal-electromagnetic fields). (?)
 
 
@@ -98,9 +98,37 @@ Graphic tools to parse data points into actionable insights.
 - [Virtual Probes & Iso-Surfaces](./graphics)
   > Click-to-probe tools that read exact scalar values on specific nodes, paired with surfaces showing uniform value fields (e.g., constant pressure shells). (?)
 
-## 6. Generative Design & Optimization
+## 6. [Computing](./computing/computing.md)
 
-## 7. Multi-User Collaboration & Reporting
+> Engineering simulations require massive computational hardware backend scaling.
+
+- > Local CPU/GPU Parallelization: Multi-threading scaling to distribute simulation matrix solving across local multi-core CPUs and GPUs. (?)
+
+- > Solve Offloading: Seamless cloud orchestration allowing a user to design locally and push compute-heavy solvers to scalable remote cloud clusters.
+  - We'd like to have everything to work locally with low latency 
+
+- > Solver Resumption & Checkpointing: Automatic state-saving so that if a massive multi-day simulation fails, it can resume from the last computed step without data loss. (?)
+  - Any simulation should be immediate
+
+## 7. Generative Design & Optimization
+
+Modern engineering software shifts from just verifying designs to proactively optimizing them.
+
+- [Topology Optimization](./generative-design/topology-optimization.md)
+  > Algorithms that automatically strip away material from a non-critical load path to minimize weight while maintaining part stiffness. (?)
+
+- [Parametric Design of Experiments (DoE)](./generative-design/parametric-design-of-experiments-(DoE).md)
+  > Automated batch simulation loops testing permutations of geometric dimensions to find the mathematically ideal layout. (?)
+
+## 8. Multi-User Collaboration & Reporting
+
+Engineering is highly collaborative and could benefit from user collab.
+
+- [Real-Time Design Review Co-presence](./user-collaboration/real-time-design-review-co-presence.md)
+  > Web-native viewer enabling distributed global teams to rotate, inspect, and section identical simulation results concurrently. (?)
+
+- [Automated Reporting](./reporting/automated-reporting.md)
+  > One-click compilation of simulation boundary conditions, meshes, safety factors, and peak stress plots into PDFs or web links.
 
 ---
 
