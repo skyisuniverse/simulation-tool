@@ -77,6 +77,9 @@ The core features must cover everything from importing raw geometry to managing 
 
   [010zx00x1/Awesome-Physical-Engineering-AI](https://github.com/010zx00x1/Awesome-Physical-Engineering-AI)
 
+
+> Are you designing this app for a **specific engineering discipline** (e.g., structural FEA, fluid dynamics CFD, or electronics cooling)? Knowing the focus will help me specify the precise **solver requirements** or **specialized mesh utilities** you'll need.
+
 ---
 
 ## Resources

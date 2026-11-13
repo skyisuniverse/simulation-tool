@@ -1,5 +1,25 @@
 # TechStack
 
+## Considerations
+
+We might aim to develop/support two app tracks in parallel:
+
+- **Engineering sim for nano-assembly** / quantum as a manufacturing method
+  - nano-assembly
+    - with DNA
+    - quantum (?)
+- **Engineering sim for** already existing **traditional manufacturing**
+  - CNC-machining
+  - 3D-printing
+  - injection molding
+  - casting
+
+We assume that the tech-stack for the first method might not be existing yet and/or not available in open-source, thus we'd have to conceptualize and develop it ourselves.
+
+For the second method things are easier, as there are some (supposedly related) open-source packages (subject to further hypothesis verification in practice).
+
+---
+
 - [ ] Process
   - [ ] [qd-cae/awesome-CAE](https://github.com/qd-cae/awesome-CAE) (awesome CAE frameworks, libraries and software)
     - [ ] [CAD](https://github.com/qd-cae/awesome-CAE#cad)
