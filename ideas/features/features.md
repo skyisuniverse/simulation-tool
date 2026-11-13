@@ -19,9 +19,18 @@ Should we consider the following? :
 > Before any simulation can occur, the application must ingest, repair, and clean up complex 3D CAD models.
 
 - ([Multi-Format](../file-formats/file-formats.md) ?) ([AFA](../simulation/atomic-fidelity/afa-mesh.md) ?) CAD (File?) [Import]() / [Export]()
+  - [with automatic repair for corrupt geometry data](https://share.google/aimode/VJsfaM1VEUeSbiHMU) (?)
+  - supported file formats (e.g., STEP, IGES, JT, SolidWorks, CATIA, and NX) (?)
+  - ["One-Click" CAD Import (from Features (Part 4))](https://share.google/aimode/VJsfaM1VEUeSbiHMU): Open files from SolidWorks, AutoCAD, or standard formats (STEP/IGES) instantly without losing faces or dealing with corrupted geometry.
 
 - CAD 2 SIM (conversion? adaptation?)
   - [ ] process conversation with Gemini on [CAD File Preparation for Simulation](https://share.google/aimode/FHgQnSi3Y2ozrVYmW)
+
+- Geometry Repair Engine (?)
+  > Automatic detection and healing of broken surfaces, open edges (seams), intersecting volumes, and tiny sliver faces.
+
+- Parametric Dimension Linking  (?)
+  > Bidirectional sync (LiveLink) with CAD tools so that changing a simulation parameter automatically updates the master CAD geometry.
 
 ## 2. Pre-Processing & Mesh Generation
 
@@ -29,9 +38,12 @@ Should we consider the following? :
 
 - [ ] (Automated Spatial) [Meshing](./meshing/meshing.md)
   > Algorithms to generate structured (Hexahedral) and unstructured (Tetrahedral, Polyhedral) meshes based on geometry complexity. (?)
+  - [Automatic Meshing (from Features (Part 4))](https://share.google/aimode/VJsfaM1VEUeSbiHMU) (?)
+    > The app automatically divides the 3D model into a math grid behind the scenes, making it dense where stress is high and loose where it isn't, without requiring the user to be a math expert. (?)
 
 - [ ] (Adaptive) [Mesh Refinement (AMR)](./meshing/mesh-refinement.md)
   > Intelligent algorithms that automatically refine the mesh (densify nodes) in high-stress concentration areas or sharp fluid gradient paths during calculation. (?)
+  > [Automatic reduction of element size in high-stress concentration zones or areas with complex physics fluid gradients.](https://share.google/aimode/VJsfaM1VEUeSbiHMU)
 
 - [ ] Boundary Layer Meshing
   > ?
@@ -69,6 +81,11 @@ Should we consider the following? :
 
 - (Nonlinear ?) [Material Library](./materials/materials-library.md)
   > Built-in repository of isotropic, orthotropic, and anisotropic [material profiles](./materials/material-profiles.md), complete with stress-strain curves. (?)
+  - [Extensive Material Library](https://share.google/aimode/VJsfaM1VEUeSbiHMU) (duplicate ?)
+    > Pre-mapped properties including linear elasticity, plastic behavior, composite layerings, dynamic thermal conductivities, and fluid viscosities. (?)
+  - [Smart Material Picker (from Features (Part 4))](https://share.google/aimode/VJsfaM1VEUeSbiHMU) (?)
+    > A searchable, built-in library where users can click to assign real-world materials (like Aluminum 6061-T6 or ABS Plastic) without manually typing in complex physics constants.
+
 
 - [Material Modeler](./materials/material-modeler.md)
   - > Specialized tools to simulate (composites?), ply layups, fiber orientations, and delamination risks in carbon fiber or reinforced plastics. (?)
@@ -116,6 +133,8 @@ Modern engineering software shifts from just verifying designs to proactively op
 
 - [Topology Optimization](./generative-design/topology-optimization.md)
   > Algorithms that automatically strip away material from a non-critical load path to minimize weight while maintaining part stiffness. (?)
+  - [Topology Optimization Loop from Features (Part 4)](https://share.google/aimode/VJsfaM1VEUeSbiHMU)
+    > Algorithmic scripts that suggest the lightest possible geometry shape based on designated payload limits and manufacturing rules.
 
 - [Parametric Design of Experiments (DoE)](./generative-design/parametric-design-of-experiments-(DoE).md)
   > Automated batch simulation loops testing permutations of geometric dimensions to find the mathematically ideal layout. (?)
@@ -126,9 +145,18 @@ Engineering is highly collaborative and could benefit from user collab.
 
 - [Real-Time Design Review Co-presence](./user-collaboration/real-time-design-review-co-presence.md)
   > Web-native viewer enabling distributed global teams to rotate, inspect, and section identical simulation results concurrently. (?)
+  - [Concurrent Project Sandboxing from Features (Part 4)](https://share.google/aimode/VJsfaM1VEUeSbiHMU)
+    > A web-browser environment allowing distributed engineering teams to view, tweak parameters, and co-review simulation runs concurrently.
+  - [Shareable Web Links from Features (Part 4)](https://share.google/aimode/VJsfaM1VEUeSbiHMU)
+    > A way to send a view-only, interactive 3D link to a manager or client so they can rotate and examine the results in their own web browser without installing anything.
 
 - [Automated Reporting](./reporting/automated-reporting.md)
   > One-click compilation of simulation boundary conditions, meshes, safety factors, and peak stress plots into PDFs or web links.
+  - [Automated Report Generator (From Features (Part 4))](https://share.google/aimode/VJsfaM1VEUeSbiHMU)
+    > One-click exporting of clean, professional PDF or PowerPoint reports containing the setup rules, final results, and key screenshots.
+
+- [Side-by-Side Comparison (From Features (Part 4))](https://share.google/aimode/VJsfaM1VEUeSbiHMU)
+  > A split-screen mode to compare "Design Version A" against "Design Version B" under the exact same stress test to see which performs better.
 
 ---
 

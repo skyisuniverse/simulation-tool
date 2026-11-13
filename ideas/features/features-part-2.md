@@ -10,7 +10,10 @@
   - > Neural networks trained on historical simulation data that instantly predict stress or fluid flow profiles as the user drags a CAD slider (?)
   - > bypassing the traditional solver for early-stage design. (??)
 - **Automated Boundary Condition Inference**
- > Computer vision models that analyze the 3D topology of a part and automatically guess where constraints (e.g., fixed bolts) and loads should go, based on standard engineering conventions. (?)
+  > Computer vision models that analyze the 3D topology of a part and automatically guess where constraints (e.g., fixed bolts) and loads should go, based on standard engineering conventions. (?)
+
+  - [Boundary Condition Environments](https://share.google/aimode/VJsfaM1VEUeSbiHMU) (duplicate (?))
+    > Intuitive placement UI for real-world constraints like fixed anchors, cyclic constraints, bearing pressures, velocities, and heat sources. (?)
 
 - **Smart Mesh Suggestion Engine**
   > Machine learning that evaluates geometric tortuosity and immediately applies the optimal mesh density without requiring manual mesh convergence studies. (?)

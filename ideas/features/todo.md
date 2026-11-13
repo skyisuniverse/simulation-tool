@@ -19,6 +19,9 @@
   - simulation type? (fea, cfd, etc.?)
   - etc. ?
 
+- Process Gemini's comments & extract new feature ideas from all Feature conversations, e.g. (from [./features-part-4.md](./features-part-4.md)):
+  > Would you like to focus on making a **specific workflow** easier for the user, such as **setting up the forces** or **interpreting the final data graphs**?
+
 ## TechStack, Devices
 
 - [ ] Before implementing features it could be nice to:

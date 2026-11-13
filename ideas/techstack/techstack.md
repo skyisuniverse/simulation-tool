@@ -18,7 +18,13 @@ We assume that the tech-stack for the first method might not be existing yet and
 
 For the second method things are easier, as there are some (supposedly related) open-source packages (subject to further hypothesis verification in practice).
 
+## Devices
+
+- What about adaptivity? (computers / mobiles (?)))
+
 ---
+
+## OpenSource tools
 
 - [ ] Process
   - [ ] [qd-cae/awesome-CAE](https://github.com/qd-cae/awesome-CAE) (awesome CAE frameworks, libraries and software)
@@ -61,3 +67,30 @@ For the second method things are easier, as there are some (supposedly related) 
   - [ ] [edt-community/awesome-digital-twins](https://github.com/edt-community/awesome-digital-twins) (Curated repository of awesome Digital Twin resources)
   - [ ] [Roboflow Universe](https://universe.roboflow.com/) (Computer-vision datasets)
   - [ ] [Awesome Internet of things and sensor data](https://github.com/oxnr/awesome-bigdata#internet-of-things-and-sensor-data)
+
+---
+
+## Concerns
+
+We have several domains of concerns that we have to make work together in one single product performantly:
+
+- Programming language (s) for best performance (C / Assembly?)
+- Device support, Adaptivity (computers, mobiles, etc.)
+- OpenSource tools
+  - Some tools are written in Python (like solvers(?))
+  - Some tools are written in JS/TS (like (web / mobile) frontend)
+  - etc.
+
+How do we make it all work together?
+
+- Conceptualize the product
+  - finalize features, stories
+  - make a list of scenarios for simulations 
+- Inspect possible dependencies (open-source tools)
+- Create a table for techstack, list all 
+  - programming languages
+  - tools (libs, apps, frameworks, etc.)
+- Analyze the applicability of each tech for the overall requirements
+  - Performance
+  - Scalability
+- Choose techstack wisely with future-proof vision (as much as possible, given the scope of task, lol)
