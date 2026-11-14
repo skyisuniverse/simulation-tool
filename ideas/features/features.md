@@ -1,5 +1,11 @@
 # Features
 
+## 1st Priority
+
+- [ ] [Open Python API Ecosystem](./features-part-5.md) (from ./features-part-5.md)
+
+## Part 1
+
 > Building a 3D engineering simulation app involves bridging the gap between precise CAD geometries and complex physical equations. To build a comprehensive simulation suite, the system must process data through an **end-to-end** **pipeline**:
 
 - preparing geometry

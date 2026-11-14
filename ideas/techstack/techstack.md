@@ -26,6 +26,13 @@ For the second method things are easier, as there are some (supposedly related) 
 
 ## OpenSource tools
 
+- [ ] From [features-part-5.md](../features/features-part-5.md) :
+  - Are you planning to build **proprietary solvers** from scratch, or wrap around **open-source solvers** like:
+    - [OpenFOAM](https://www.openfoam.com) 
+    - or [CalculiX](https://github.com/calculix)?
+
+---
+
 - [ ] Process
   - [ ] [qd-cae/awesome-CAE](https://github.com/qd-cae/awesome-CAE) (awesome CAE frameworks, libraries and software)
     - [ ] [CAD](https://github.com/qd-cae/awesome-CAE#cad)
