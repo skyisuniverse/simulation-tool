@@ -1,3 +1,29 @@
+# 3D Engineering Simulation Tool
+
+## Gitub Project
+
+- [Project board (in Github Projects)](https://github.com/users/skyisuniverse/projects/4/views/1)
+
+---
+
+## About
+
+- [Architecture](./ideas/architecture/architecture.md)
+- [Features](./ideas/features/)
+- [Compute](./ideas/compute/)
+- [Materials](./ideas/materials)
+- [EDA](./ideas/eda-(electronic-design-automation))
+- [Math](./ideas/math)
+<!--- [Molecular-chemistry]()-->
+- [Nanotechnology](./ideas/nanotechnology)
+- [Quantum](./ideas/quantum/quantum-tunneling.md)
+<!--- [Semiconductor-design]()-->
+- [Simulation](./ideas/simulation)
+  - [Types-of-simulation](./ideas/Types-of-simulation)
+- [Techstack](./ideas/Types-of-simulation)
+
+---
+
 From conversation with Gemini on [Engineering Simulation Tool Architecture](https://share.google/aimode/bx6WT8bia9guHG5Jd)
 
 > You're building a (3D) engineering simulation tool. Consider using best practices, logic decoupling, layering, modular architecture and clean code. What parts could such application consist of?
