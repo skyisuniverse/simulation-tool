@@ -1,5 +1,7 @@
 # Calculix
 
+[Calculix (Wikipedia)](https://en.wikipedia.org/wiki/Calculix)
+
 - [dhondt.de](https://www.dhondt.de/) A Free Software Three-Dimensional Structural Finite Element Program
 - [calculix.de](https://www.calculix.de/)
   - [jet-engine-model and documentation](https://www.calculix.de/fw05.html)
@@ -9,6 +11,7 @@
 
 
 - [CALCULIX](https://github.com/calculix) (Developers area of CalculiX Finite Element Software)
+  - [32 repositories](https://github.com/orgs/calculix/repositories?type=all)
   - [calculix/CalculiX-Windows](https://github.com/calculix/CalculiX-Windows) 
     - CalculiX is an **OSS package** designed **to solve field problems**. The method used is the **finite element method**. This package is a native Microsoft Windows 64-bit build of CalculiX.
   - [calculix/beso](https://github.com/calculix/beso) (Python code for **topology optimization** using CalculiX FEM solver.)
