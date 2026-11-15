@@ -4,6 +4,11 @@
 
 - [Project board (in Github Projects)](https://github.com/users/skyisuniverse/projects/4/views/1)
 
+## Development documentation
+
+- [Changelog generation](./development-docs/changelog-generation.md)
+- [Release strategy](./development-docs/release-strategy.md)
+
 ---
 
 ## About
