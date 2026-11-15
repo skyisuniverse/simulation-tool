@@ -1,7 +1,5 @@
 # Features. Comparative table
 
-#### 1. Geometry Setup & CAD Interoperability (features.md) / 1. CAD Interoperability & Core Modeling (features-part-3.md) / 1. CAD Interoperability & Geometric Engine (features-part-4.md) / 2. Geometry & Pre-Processing Engine (features-part-5.md)
-
 > ## Part 1
 >
 >> Building a 3D engineering simulation app involves bridging the gap between precise CAD geometries and complex physical equations. To build a comprehensive simulation suite, the system must process data through an **end-to-end** **pipeline**:
@@ -10,7 +8,28 @@
 > - generating computational meshes, 
 > - solving physics equations, 
 > - and analyzing visual feedback.
+
+> To transform a 3D engineering simulation app from a standard solver into a bleeding-edge, industry-disrupting platform, you can incorporate advanced features around **AI automation**, **physical-world synchronization**, **immersive hardware**, and **specialized edge-case environments**.
+
+> To build a competitive **3D engineering simulation application** your software architecture must deliver high-fidelity multiphysics solvers, robust geometry tools, and modern AI acceleration.
 >
+> A comprehensive framework of essential features can be broken down into core operational pillars.
+
+> Building a comprehensive **3D engineering simulation application** requires a **precise balance** of:
+>
+> - ***mathematical accuracy***, 
+> - **CAD system flexibility**, 
+> - **high-performance rendering**, 
+> - and **intuitive engineering controls**. 
+>
+> The core features must cover everything from importing raw geometry to managing meshes and visualizing complex mathematical physics fields.
+
+> Building a comprehensive 3D engineering simulation application requires an architecture that bridges heavy geometric modeling with complex physics solvers. The core functionalities can be organized into the key layers of a modern computer-aided engineering (CAE) app:
+
+#### 1. Geometry Setup & CAD Interoperability (features.md) / 1. CAD Interoperability & Core Modeling (features-part-3.md) / 1. CAD Interoperability & Geometric Engine (features-part-4.md) / 2. Geometry & Pre-Processing Engine (features-part-5.md)
+
+> Pre-processing represents the biggest bottleneck for engineers; the tool must make model preparation fast and robust.
+
 > ## Thoughts
 > 
 > - [ ] (from 1. Geometry Setup & CAD Interoperability) CAD Import/Export or File Import/Export (better choose File Import/Export, because we might consider expanding the importable domain beyond CAD? do AFA-meshes fall into CAD category? other possible imports?)
@@ -18,6 +37,8 @@
 > Should we consider the following? :
 > 
 > Before any simulation can occur, the application must ingest, repair, and clean up complex 3D CAD models.
+
+> Before simulation begins, users need tools to import, clean, and modify their 3D models.
 
 - ([Multi-Format](../file-formats/file-formats.md) ?) ([AFA](../simulation/atomic-fidelity/afa-mesh.md) ?) CAD (File?) [Import]() / [Export]()
   - [with automatic repair for corrupt geometry data](https://share.google/aimode/VJsfaM1VEUeSbiHMU) (?)
@@ -57,6 +78,8 @@
 #### 2. Pre-Processing & Mesh Generation (features.md) / 2. Advanced Pre-Processing & Meshing Engine (features-part-3.md) / 2. Advanced Meshing Engine (features-part-4.md)
 
 > Transforming 3D geometry into a discrete numerical environment (discretization) is the foundation of structural and fluid dynamics solvers.
+
+> High-quality meshes are critical for accuracy. This engine translates continuous 3D mathematical bodies into discretized pieces for solvers.
 
 - [ ] (Automated Spatial) [Meshing](./meshing/meshing.md)
   > Algorithms to generate structured (Hexahedral) and unstructured (Tetrahedral, Polyhedral) meshes based on geometry complexity. (?)
@@ -102,6 +125,10 @@
   > Automated hex-dominant, tetrahedral, and shell meshing with smart proximity-aware refinement and dynamic local remeshing. (?)
 
 #### 3. Physics Solvers & Multi-Physics Interaction (features.md) / 3. Advanced Multiphysics & Micro-Scale Environments (features-part-2.md) / 3. Multi-Physics Solvers & Scenario Setup (features-part-3.md) / 3. Physics Scenario Setup & Solvers (features-part-4.md) / 1. Core Multiphysics Solvers (features-part-5.md)
+
+> The app must handle complex, coupled physical phenomena within a single unified environment.
+
+> The mathematical engine where the environmental, mechanical, or thermal properties are computed.
 
 - **Physics Scenario Framework**
   > A structured assistant or feature manager to organize steps for distinct simulations like static, dynamic, CFD, or thermal loops. (?)
@@ -189,7 +216,11 @@ Expanding into highly specialized environmental and microscopic boundaries.
 
 #### 5. Post-Processing & Interactive Visualizations (features.md) / 4. 3D Graphics & Post-Processing Visualization / 4. Post-Processing & Visualization (features-part-4.md) / 5. Post-Processing & Simulation Governance (features-part-5.md)
 
-Graphic tools to parse data points into actionable insights.
+> Graphic tools to parse data points into actionable insights.
+
+> Engineers require deep insights and verifiable validation tools to defend their results.
+
+> Turning millions of mathematical matrix data points into actionable insights for designers.
 
 - [Dynamic Contour Heatmaps](./graphics/dynamic-contour-heatmaps.md)
   > High-performance, GPU-accelerated rendering of physics (e.g. Von Mises stress, strain, temperature fields, pressure drops, etc.) on the 3D model. (?)
@@ -305,6 +336,8 @@ Engineering is highly collaborative and could benefit from user collab.
 
 > Integrating AI speeds up calculation times from hours to milliseconds and automates tedious manual setups.
 
+> Modern simulation platforms differentiate themselves by replacing raw brute-force computing with intelligent surrogate models.
+
 - **Real-Time Physics Prediction**
   - > Neural networks trained on historical simulation data that instantly predict stress or fluid flow profiles as the user drags a CAD slider (?)
   - > bypassing the traditional solver for early-stage design. (??)
@@ -344,6 +377,8 @@ Engineering is highly collaborative and could benefit from user collab.
 
 #### 4. XR (Extended Reality) Immersive Interaction (AR/VR) (features-part-2.md)
 
+> Moving beyond the flat 2D computer screen into spatially accurate engineering environments.
+
 - **Virtual Reality (VR) Wind Tunnel**
   > An immersive sandbox where an engineer can walk around a full-scale 3D car or aircraft body, physically moving smoke trace probes with VR controllers to feel the aerodynamics.
 
@@ -356,6 +391,8 @@ Engineering is highly collaborative and could benefit from user collab.
 
 #### 5. Manufacturing (features-part-2.md)
 
+> Ensuring that what is optimized in a simulation can actually be manufactured.
+
 - **3D Print Printability Simulation**
   > Engines that simulate the layer-by-layer thermal cooling of a metal or polymer 3D print job to predict structural warping, residual stresses, or support-structure failure *before* printing. (?)
 
@@ -367,6 +404,8 @@ Engineering is highly collaborative and could benefit from user collab.
 
 #### 6. Verification (features-part-2.md)
 
+> Building trust in the mathematical integrity of the software.
+
 - **Automated Verification & Validation**
   > Built-in testing suites that map simulation code against standardized benchmarks to mathematically prove the solver's precision (?)
 
@@ -374,3 +413,5 @@ Engineering is highly collaborative and could benefit from user collab.
   > A permanent, (unalterable?) digital log showing exactly who simulated a part, what assumptions were used, and the raw verification output data. (?)
 
 #### 4. Compute Infrastructure & Solver Performance (features-part-5.md)
+
+> Handling large, millions-of-degrees-of-freedom models requires state-of-the-art compute.
