@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file.
 
+
+## [0.0.2](https://github.com/skyisuniverse/simulation-tool/compare/v0.0.1..v0.0.2) - 2026-11-15
+
+### 📚 Documentation
+
+- **(features)**: Add basic features setup - ([37754d3](https://github.com/skyisuniverse/simulation-tool/commit/37754d3ed3fc05aa5a86d7e7423a1b7e872ab120))
+- **(features)**: Add features docs for meshing, solvers, materials - ([1db6e6a](https://github.com/skyisuniverse/simulation-tool/commit/1db6e6a94fff2b294d1a54491f693cd9a9564764))
+- **(features)**: Add docs for graphics features - ([4556819](https://github.com/skyisuniverse/simulation-tool/commit/4556819db7393f53c14a05ec2827f0329f5163a6))
+- **(features)**: Add visualizations features - ([695da7c](https://github.com/skyisuniverse/simulation-tool/commit/695da7c300f93945697b99de8e6bcc2529d7f957))
+- **(features)**: Update features docs, add feature file links - ([8f0ed3b](https://github.com/skyisuniverse/simulation-tool/commit/8f0ed3b5806af4138eb0dfd3394bf0e7d2607a3c))
+- **(features)**: Add features (part 2) - ([733a119](https://github.com/skyisuniverse/simulation-tool/commit/733a119632674998f78ea90557bd08641cd3d5e3))
+- **(features)**: Add features (part 3) and resources for techstack - ([af43066](https://github.com/skyisuniverse/simulation-tool/commit/af43066fe0f5141cc25ba32e07c7cae52222f143))
+- **(features)**: Add features part 4 - ([ada415d](https://github.com/skyisuniverse/simulation-tool/commit/ada415d670bbb8bbf3ab7c61da1bb27d07bbd48b))
+- **(features)**: Add features part 5 - ([5d258f5](https://github.com/skyisuniverse/simulation-tool/commit/5d258f59522bf41255131d0b2b03c82030dad35a))
+- **(features)**: Create a comparative feature table (from multiple Gemini conversations), process features.md (part 1) - ([8401d41](https://github.com/skyisuniverse/simulation-tool/commit/8401d413d42162e912206ded0c92aa046d608614))
+- **(features)**: Process all feature conversation woth Gemini into a single comparative file (part 2, part 3, part 4, part 5) - ([8ec04f9](https://github.com/skyisuniverse/simulation-tool/commit/8ec04f976e39f19dbadf4ef2e24ff6b8f1414750))
+- **(metamaterials)**: Add docs on quantum tunneling and metamaterials - ([9a3b426](https://github.com/skyisuniverse/simulation-tool/commit/9a3b426ae18610fd727db804af3051d5b3942dac))
+- **(release)**: Add docs for changelog generationd and release strategy - ([ca9c0da](https://github.com/skyisuniverse/simulation-tool/commit/ca9c0da33833be001fa3bcd8c4ac4da7c6e99234))
+- **(techstack)**: Define basic techstack vision (for gradual feature development) - ([d93949d](https://github.com/skyisuniverse/simulation-tool/commit/d93949dba49bb28829d42a52f211cb38d73480db))
+- **(techstack)**: Add calculix (open-source tool for finite element method) - ([c5e6d39](https://github.com/skyisuniverse/simulation-tool/commit/c5e6d39fa22804ff013382ea828f77269e412b71))
+- **(techstack)**: Add calculix and salome for finite element method - ([d510e32](https://github.com/skyisuniverse/simulation-tool/commit/d510e32c9b8c3d71bfaede9da9351d67bb8b6b4c))
+
+### ⚙️  Chore
+
+- **(release)**: V0.0.1 - ([99d4a73](https://github.com/skyisuniverse/simulation-tool/commit/99d4a73ea650c62c25268ce4a34c944caef6b3e5))
 ## [0.0.1] - 2026-11-08
 
 ### 📚 Documentation
