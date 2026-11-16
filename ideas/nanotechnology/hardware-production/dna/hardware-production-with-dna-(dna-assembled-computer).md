@@ -407,7 +407,7 @@ Because you no longer need giant EUV laser systems (which are the size of a city
 #### 2. The Computer Chip Form-Factor: Molecular Scale
 
 By abandoning optical lithography, we bypass the physical limits of light. The size of the resulting computer components drops directly to the atomic and molecular scale.
-- **Transistor Size**: A traditional advanced transistor has a gate length of roughly 12 to 15 nanometers. A carbon nanotube transistor aligned by DNA can have a channel width of just 1 to 2 nanometers (the width of a single molecule).
+- **Transistor Size**: A traditional advanced transistor has a gate length of roughly 12 to 15 nanometers. A carbon nanotube transistor aligned by DNA can have a channel width of just **1 to 2 nanometers** (the width of a single molecule).
 - **Component Density**: Because components can be packed at the 1-nanometer scale, you could fit a functional, basic microcontroller (processor, memory, and wiring) into a physical footprint of less than **1 square micrometer**.
 - **The Comparison**: A single red blood cell is about 7 micrometers wide. A fully functioning, lithography-free computer built via DNA scaffolding could easily fit inside the footprint of a **single human cell**, paving the way for true intracellular medical nanobots and smart materials.
 
