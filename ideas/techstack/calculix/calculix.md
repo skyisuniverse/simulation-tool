@@ -32,3 +32,63 @@
   - [calculix/CyclicAMIChannel](https://github.com/calculix/CyclicAMIChannel) example implementation of an [OpenFOAM](https://www.openfoam.com) model
   - [calculix/inp2unv](https://github.com/calculix/inp2unv)
     - CalculiX to Salome universal converter. Converts CalculiX INP mesh to the UNV format.
+
+
+---
+
+# Calculix
+
+Gemini on [Calculix](https://share.google/aimode/hgv45tmIb06pdSrGw)
+
+CalculiX is a **free and open-source Finite Element Analysis (FEA) software package used to solve 3D structural, thermal, fluid, and coupled multi-physics problems**.
+
+## Key Components & Architecture
+
+- **CalculiX CrunchiX (`ccx`)**: The core implicit and explicit finite element solver developed by Guido Dhondt. It uses input file formats and naming conventions compatible with Abaqus. [Calculix (wikipedia)](https://en.wikipedia.org/wiki/Calculix)
+
+- **CalculiX GraphiX (`cgx`)**: The interactive 3D pre- and post-processor developed by Klaus Wittig for model building, meshing, and viewing results.
+
+- **Alternative GUIs & Interfaces**: Many users pair CalculiX with user-friendly graphical interfaces like [PrePoMax](https://prepomax.fs.um.si) ([github](https://github.com/PrePoMax/PrePoMax)) or CAD tools like [FreeCAD](https://www.freecad.org) (via its FEM workbench).
+
+## Core Capabilities
+
+- **Analysis Types**: Linear and non-linear static, dynamic/explicit, eigenfrequency (modal), buckling, heat transfer, and coupled thermo-mechanical simulations.
+
+- **Material Models**: Linear elastic, plastic, and hyperelastic material definitions.
+
+- **Interoperability**: Can import/export or generate mesh data for tools like Abaqus, Ansys, Nastran, Code-Aster, and OpenFOAM, or couple with fluid solvers via [preCICE](https://precice.org/) ([github](https://github.com/precice)).
+
+- **Platforms**: Available for Linux and Windows (maintained via official archives and repositories like the [CalculiX GitHub Repository](https://github.com/Dhondtguido/CalculiX)).
+
+Are you looking for help with:
+
+- Setting up a **specific FEA model or input file** **(`.inp`)**?
+- Installing **CalculiX or a GUI like PrePoMax** on Windows or Linux?
+- Running a particular kind of analysis (like **thermal**, **contact**, or **non-linear static**)?
+
+---
+
+Geminin on [CalculiX (2)](https://share.google/aimode/UdcA3K6fZgHNO44hp)
+
+CalculiX is a free and open-source finite element analysis (FEA) suite used to solve 3D linear and non-linear structural, dynamic, thermal, and coupled field problems.
+
+## Key Components
+
+- **CalculiX CrunchiX (`ccx`)**: The core implicit and explicit solver written by Guido Dhondt.
+
+- **CalculiX GraphiX (`cgx`)**: The interactive 3D pre- and post-processor written by Klaus Wittig.
+
+- **Solvers & Add-ons**: Integrates sparse direct solvers like SPOOLES and PaStiX (with optional CUDA acceleration), ARPACK for eigenvalue/frequency problems, CAD converters, and preCICE for fluid-structure interaction.
+
+## Common Ecosystem & Interfaces
+
+- **PrePoMax**: A popular, user-friendly open-source Windows GUI frontend for CalculiX.
+- **FreeCAD**: Features a built-in FEM workbench that automates CalculiX model creation.
+- **PyCalculix**: A Python library designed to build, mesh, and run 2D CalculiX models programmatically.
+- **Operating Systems**: Native support for Linux and Windows (via direct ports and launchers).
+
+Would you like to know more about:
+
+- **Setting up a model** in CalculiX or PrePoMax?
+- **Installing** CalculiX on Windows or Linux?
+- Running a specific type of **analysis** (static, thermal, or modal)?

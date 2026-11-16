@@ -75,6 +75,9 @@ For the second method things are easier, as there are some (supposedly related) 
   - [ ] [Roboflow Universe](https://universe.roboflow.com/) (Computer-vision datasets)
   - [ ] [Awesome Internet of things and sensor data](https://github.com/oxnr/awesome-bigdata#internet-of-things-and-sensor-data)
 
+- Couplers
+  - [ ] [preCICE](./preCICE/preCICE.md) ([precice.org](https://precice.org/), [github.com/precice](https://github.com/precice)) 
+
 ---
 
 ## Calculix
