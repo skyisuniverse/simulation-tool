@@ -98,6 +98,22 @@ For the second method things are easier, as there are some (supposedly related) 
 - [xmcp](./xmcp/xmcp.md)
   - [mcp](./xmcp/mcp.md)
 
+## Versioning & changelogs
+
+- [changesets](https://changesets.dev/)
+
+## Monorepo setup
+
+- [turborepo](https://turborepo.dev/)
+  - conversation with Gemini on [what does xmcp use to orchestrate packages?](https://share.google/aimode/AvS5kWScnoOi4IwW3)
+    - > The xmcp monorepo uses a combination of Turborepo, pnpm workspaces, and Changesets to manage and orchestrate its packages.
+      > - **Build & Task Orchestration (`turbo.json`)**. Turborepo handles task running, build pipelines, and caching across the repository's apps, examples, and packages.
+      > - **Workspace & Dependency Management (`pnpm-workspace.yaml`)**. pnpm links internal packages and manages shared dependencies across the workspace.
+      > - **Versioning & Publishing (`.changeset`)**. Changesets tracks changes, bumps package versions, and automates releases to npm.
+      >
+      > Would you like to look into the **turbo.json** pipeline configuration or see which **individual packages** live inside the `packages/` directory?
+  - next.js 
+
 ---
 
 ## Concerns

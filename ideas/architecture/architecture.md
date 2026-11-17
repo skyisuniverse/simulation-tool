@@ -17,5 +17,6 @@
 
 ## adr cli & sdk
 
-- adr cli
-- adr sdk
+- [adr cli](./adr-cli.md)
+- [adr sdk](./adr-sdk.md)
+- [adr api](./adr-api.md)
