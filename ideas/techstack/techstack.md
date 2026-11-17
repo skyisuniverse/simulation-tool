@@ -92,6 +92,14 @@ For the second method things are easier, as there are some (supposedly related) 
 
 ---
 
+## AI
+
+- [mastra](./mastra/mastra.md)
+- [xmcp](./xmcp/xmcp.md)
+  - [mcp](./xmcp/mcp.md)
+
+---
+
 ## Concerns
 
 We have several domains of concerns that we have to make work together in one single product performantly:
