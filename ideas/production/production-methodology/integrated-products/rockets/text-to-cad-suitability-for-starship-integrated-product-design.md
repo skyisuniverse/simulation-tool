@@ -42,3 +42,7 @@ If you're exploring AI-assisted hardware workflows, let me know what kind of **s
 - or **test stand**), 
 
 and I can help outline how tools like text-to-cad could fit into that workflow.
+
+--- 
+
+> Create a list of components / sub-components of a Starship, that text-to-cad could be a good fit for
