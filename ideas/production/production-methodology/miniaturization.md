@@ -2,6 +2,8 @@
 
 What we want?
 
+## Material-enabled compact production (?)
+
 An in-house manufacturing of parts & components for assembly of integrated products, with a material comparable to metal in durability yet easier in handling & not requiring massive expensive setup (heavy heating screening, etc.), cheap and simple enough in handling to be produced in-house cheaply, affordably in an automated way.
 
 What could such material be?
