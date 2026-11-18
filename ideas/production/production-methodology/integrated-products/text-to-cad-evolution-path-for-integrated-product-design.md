@@ -129,3 +129,13 @@ Prompt 5:
 
 What is a Subdivision kernel?
 Does Open Cascade support Subdivision / NURBS kernel?
+
+> [Does Open Cascade support Subdivision / NURBS kernel?](https://share.google/aimode/UilwQzjvRui0wpDJE)
+
+- **NURBS Support**: Yes. Open Cascade Technology (OCCT) has comprehensive native support for NURBS (Non-Uniform Rational B-Splines), B-splines, Bezier curves/surfaces, and standard parametric/canonical geometries. It functions as a full-scale B-Rep (Boundary Representation) and mesh modeling kernel built heavily around exact mathematical curves and surfaces.
+  - [Geometric modeling kernels for CAD systems](https://medium.com/@a.kas/geometric-modeling-kernels-for-cad-systems-b97f689d2f46)
+  - [Introduction to OpenCascade and CAD modelling kernels](https://analysis-situs.medium.com/introduction-to-opencascade-and-cad-modelling-kernels-eb9e6b6817f4)
+
+- **Subdivision Surfaces Support**: No. OCCT **does not** natively support subdivision surfaces or T-splines. It handles exact B-Rep and polygonal/triangular mesh conversions, but lacks native subdivision modeling data structures or algorithms.
+
+Would you like to explore **how to convert subdivision meshes into OCCT's B-Rep/NURBS format**, or look into **alternative libraries that support subdivision kernels**?
