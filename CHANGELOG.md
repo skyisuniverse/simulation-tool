@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 
 
+## [0.1.0](https://github.com/skyisuniverse/simulation-tool/compare/v0.0.2..v0.1.0) - 2026-11-19
+
+### 🚀 Features
+
+- **(semi-truck-CAD-model)**: Add CAD-model of a semi truck generated with text-to-cad - ([a16f9bc](https://github.com/skyisuniverse/simulation-tool/commit/a16f9bc6c88e7eb95e1b90fcc76c9888a2bbb690))
+
+### 📚 Documentation
+
+- **(agentic-manufacturing)**: Add vision for stabilization and variability of agentically manufactured products - ([7e5778b](https://github.com/skyisuniverse/simulation-tool/commit/7e5778be1863e4dda316f6f880a244d1770db819))
+- **(ai)**: Add mastra and xmcp for consideration for techstack - ([7917e0b](https://github.com/skyisuniverse/simulation-tool/commit/7917e0bd09fb41129749bf5623a15ee6ab6b8a16))
+- **(ai-agents)**: Add docs about ai-agents, their difference from llm - ([2dff5f0](https://github.com/skyisuniverse/simulation-tool/commit/2dff5f02bd10c27ca08097623354b7daaa286b5f))
+- **(cnc)**: Add docs for open-source cnc control - ([e000068](https://github.com/skyisuniverse/simulation-tool/commit/e000068dabdad9ad9dbe298d4026d21027b274b7))
+- **(dna)**: Add docs for manufacturing products with dna (rockets, robots, cars, satellites) - ([321e597](https://github.com/skyisuniverse/simulation-tool/commit/321e597e49b05db1fa2c53cad1b6968b0f40521e))
+- **(environment)**: Add docs for environment (computational domain / simulation space) - ([b12b902](https://github.com/skyisuniverse/simulation-tool/commit/b12b90279f0bf5d956790d99184924fde140bdd4))
+- **(geometry-kernels)**: Add docs for geometry kernels (nurbs, subdivision surfaces, etc.) - ([854efcb](https://github.com/skyisuniverse/simulation-tool/commit/854efcb70a0c668813d99fe34a8fd076ff5bb557))
+- **(geometry-kernels)**: Add geometry kernels docs (NURBS, SMLib), production methodology considerations based on semi truck CAD design - ([48e7a6b](https://github.com/skyisuniverse/simulation-tool/commit/48e7a6bc7e6975a7f1b2b94a6b197db9f3b31c6a))
+- **(geometry-kernels)**: Add docs for class-a surfacing - ([fa162fa](https://github.com/skyisuniverse/simulation-tool/commit/fa162fa0e6249f98a2a3c4dcbbf2c29ffe0aa930))
+- **(practical-feasibility)**: Add considerations for 3D-printing, CNC-machining, DNA-nano-assembly - ([83f325d](https://github.com/skyisuniverse/simulation-tool/commit/83f325d65d008756f1fd80c454411a1fb2dfd1cf))
+- **(production)**: Add (ai agents, skills related) production methodology - ([d56a118](https://github.com/skyisuniverse/simulation-tool/commit/d56a1185665f65a1eb06a6cca2d73f45b2a6d512))
+- **(production)**: Add docs for miniaturization (material-enabled compact production) - ([963fcd4](https://github.com/skyisuniverse/simulation-tool/commit/963fcd497a5311ac99583f9ff386a6ce57a722a7))
+- **(production-methodology)**: Add docs for agentic manufacturing - ([be774a6](https://github.com/skyisuniverse/simulation-tool/commit/be774a6eca46d8e92daa97b18896bf6b519a6308))
+- **(solvers-coupling)**: Add preCICE for coupling solvers for multi-physics & multi-scale sims - ([27a3681](https://github.com/skyisuniverse/simulation-tool/commit/27a3681e425a183c76861f548f6a864afa2b786c))
+- **(text-to-cad)**: Add docs for text-to-cad (agentic cad modelling for parts & assemblies, circuit boards, manufacturing checks, fea (stress checks), fab services, robotics & sim) - ([8acf37d](https://github.com/skyisuniverse/simulation-tool/commit/8acf37dc088235eb71ceddc0b5c81339fcc9a345))
+- **(text-to-cad)**: Text-to-cad suitability and evolution path to integrated product design - ([a19bfc3](https://github.com/skyisuniverse/simulation-tool/commit/a19bfc354f8c1111dc3f8677082ae2bccfa63711))
+- **(text-to-cad,kicad)**: Text-to-cad suitability for Starship integrated product design - ([b79a1dc](https://github.com/skyisuniverse/simulation-tool/commit/b79a1dc211dbdc1d7004da26cd39541041b85a70))
+
+### ⚙️  Chore
+
+- **(release)**: V0.0.2 - ([af95354](https://github.com/skyisuniverse/simulation-tool/commit/af953540286565441457198bb74c2f3d809222be))
+
 ## [0.0.2](https://github.com/skyisuniverse/simulation-tool/compare/v0.0.1..v0.0.2) - 2026-11-15
 
 ### 📚 Documentation
