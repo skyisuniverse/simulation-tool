@@ -45,3 +45,26 @@ What about [machinery](https://share.google/aimode/qAehf1qyhJxcfB689)? e.g.:
 - [Foundry Handling and Special Systems](https://share.google/aimode/eBMmmKRb0yLh2zkG5)
 
 Manufacturing systems like machinery seem to be too big and bulky. For now we focus on compact manufacturing methods and [miniaturization](ideas/production/production-methodology/miniaturization.md) as a path towards making **agentic manufacturing** compact and affordable on individual level.
+
+## Stabilization. Phases
+
+Based on [considerations-based-on-semi-truck-cad-design.md](ideas/production/production-methodology/considerations-based-on-semi-truck-cad-design.md) and [text-to-cad's evolution-path-for-integrated-product-design](ideas/production/production-methodology/integrated-products/text-to-cad-evolution-path-for-integrated-product-design.md) it seems that it will take some time until (open-source) industry grows and matures from currently existing text-to-cad experiments to full-fledged integrated product design flow. Similar to how JS ecosystem grew from vanilla JS, jQuery to frameworks, build systems, monorepos, etc. It makes sense that in order to enable **manufacturability** the first phase will require as much effort as possible in manufacturing automation. 
+
+1. Enabling domain-specific features (frameworks (?)) from [evolution-path](ideas/production/production-methodology/integrated-products/text-to-cad-evolution-path-for-integrated-product-design.md)
+2. Industry-wide standard blueprints for typical integrated products
+    - Starship (?)
+    - Falcon 9 (?) / Heavy (?)
+    - Optimus / Figure (?)
+    - Cybercab (?)
+    - etc. (with time it could be any and all products), with Manufacturing Agents becoming standard manufacturing way for anything (with just the manufacturing tools differing, until we stabilize DNA-assemblers (?))
+
+    Due to scope of undertaking, it seems that leading product blueprints will take as much time/effort for development as current leading js frameworks like next.js (4k contributors), turborepo (1k contributors), etc.
+
+    Each product (and complex component) can be thought of as a framework. 
+
+
+## Variability
+
+Once the stabilization phase is done, when we get stable full-fledged frameworks for Agentic Manufacturing, we might move into a new era of abundance, with cheap production of anything. It makes sense that after stabilizing the core tech some attention could be driven towards perfecting the aesthetics, taste and fashion part of products. Enabling vast variability of products, designable in seconds by AI.
+
+As an intermediate step there could be manual part of assembly of autonomously manufactured parts - until we perfect the process and automate entirely.
