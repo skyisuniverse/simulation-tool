@@ -67,3 +67,21 @@ Could such CNC-machine be powered by an LLM with computer vision for object reco
 - Could a CNC have a list of necessary tools to perform operations on the wood +
 - A **single energy source** to power all of the tools +
 - A **programmatically controlled energy distribution** to **control how much energy is distributed** for handling **each particular tool and operation** within a tool ?
+
+### Energy distribution
+
+How can we implement tool- and operation- specific energy distribution in a CNC?
+
+### Toolbox (tool storage)
+
+Multiple Tools (24? based on [tools](ideas/production/production-methodology/integrated-products/buildings/wooden-shop/tools.md)) could probably be stored in a compact way (e.g. a **tool box**) and taken out of the box and put into work depending on a current needed assembly operation.
+
+### Gantry
+
+What size of gantry would be fine?
+
+### Tool parallel work
+
+How many parallel tool manipulators would be ok? In order to achieve max assembly speed, we might need multiple tool manipulators to work in parallel.
+
+How do we implement parallel tool work within a single gantry?

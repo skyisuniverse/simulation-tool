@@ -54,3 +54,10 @@ To help narrow this down or estimate costs, let me know:
 - The **approximate size** of the shop
 - Whether you have a **strict budget** (focusing on bare-minimum hand/power tools vs. time-saving gear)
 - Your **power access** on-site (grid electricity vs. needing cordless battery tools)
+
+---
+
+- **metal bending**
+  - (e.g. Sheet Metal Bending Brake)
+  - `+` stapling metal sheets? (e.g. to wood? to metal sheet to sheet?)
+- for **gluing** parts together (wood, etc.?) ? with glue (?)
