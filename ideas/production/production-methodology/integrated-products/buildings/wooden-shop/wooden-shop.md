@@ -68,20 +68,46 @@ Could such CNC-machine be powered by an LLM with computer vision for object reco
 - A **single energy source** to power all of the tools +
 - A **programmatically controlled energy distribution** to **control how much energy is distributed** for handling **each particular tool and operation** within a tool ?
 
+
+### Gantry
+
+- What size of gantry would be fine?
+- What components could gantry be made of? ((cut & bolted) steel profiles? hand-cut & finished / pre-fabricated components?)
+- What are requirements for gantry and gantry components?
+- What are requirements for tool handlers / manipulators? What could those be? (assembled steel spacers sliding along steel tubes?)
+
+### Frame (?)
+
+Is there a need for a frame?
+
+- [ ] [slot-extrusion](glossary/structural-framing/slot-extrusion.md) ?
+
+### Motion system
+
+- [ ] [linear-slide](glossary/structural-framing/linear-slide.md) ?
+
+- [ ] [linear-stage](glossary/structural-framing/linear-stage.md) ?
+
 ### Energy distribution
 
 How can we implement tool- and operation- specific energy distribution in a CNC?
 
-### Toolbox (tool storage)
+### Tool box (tool storage)
 
 Multiple Tools (24? based on [tools](ideas/production/production-methodology/integrated-products/buildings/wooden-shop/tools.md)) could probably be stored in a compact way (e.g. a **tool box**) and taken out of the box and put into work depending on a current needed assembly operation.
-
-### Gantry
-
-What size of gantry would be fine?
 
 ### Tool parallel work
 
 How many parallel tool manipulators would be ok? In order to achieve max assembly speed, we might need multiple tool manipulators to work in parallel.
 
 How do we implement parallel tool work within a single gantry?
+
+
+
+- [ ] [T-slot-structural-framing](T-slot-structural-framing.md) ?
+
+### (Optional) (Machine?) Enclosure
+
+Is there a need for an (optional) enclosure? (e.g. in case of bad weather conditions?)
+
+---
