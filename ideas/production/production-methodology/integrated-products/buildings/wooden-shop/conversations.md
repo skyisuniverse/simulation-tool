@@ -60,7 +60,7 @@ Instead of a massive, rigid steel bridge, you can scale up proven open-source DI
 
 - **Track-mounted gantry (LowRider / MPCNC style)**: Mount Y-axis rails directly onto a temporary, level plywood worktable (e.g., 1.5 × 3.5 meters) built on-site. The gantry rolls along the table to process full 4×8-foot (1.22 × 2.44 m) plywood sheets and standard 3-meter framing studs.
 - **Cable-suspended vertical frame (Maslow CNC style)**: Lean a near-vertical frame against a wall and suspend the tool sled from two top corner motors. This slashes footprint and cost, though it is limited to flat sheet cutting rather than 3D stud framing.
-- **Control electronics**: Run open-source **GRBL / FluidNC** or **LinuxCNC** on a $30 microcontroller or Raspberry Pi. With custom G-code macros (`M6` tool changes and `M3/M5` relay triggers), the controller can fire pneumatic tools, steppers, and pumps in sequence.
+- **Control electronics**: Run open-source **GRBL / FluidNC** or **LinuxCNC** on a $30 microcontroller or Raspberry Pi. ([BreakoutCNC](ideas/techstack/cnc/breakoutcnc.md) ?). With custom G-code macros (`M6` tool changes and `M3/M5` relay triggers), the controller can fire pneumatic tools, steppers, and pumps in sequence.
 
 
 ### 2. Modular Quick-Change Tool Heads
