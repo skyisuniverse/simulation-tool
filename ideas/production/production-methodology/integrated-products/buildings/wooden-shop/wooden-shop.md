@@ -18,6 +18,8 @@ Let's assume medium-size 1-story (floor) 1-room shop for 1 person, comfortable f
 
 - Cutting
 - Stapling
+- Drilling
+- Polishing
 - Painting
 -
 
@@ -57,3 +59,11 @@ Could such CNC-machine be powered by an LLM with computer vision for object reco
   - differentiation of different types of materials (wood, stone, metal, etc.?)
 
 ...
+
+---
+
+## CNC
+
+- Could a CNC have a list of necessary tools to perform operations on the wood +
+- A **single energy source** to power all of the tools +
+- A **programmatically controlled energy distribution** to **control how much energy is distributed** for handling **each particular tool and operation** within a tool ?
