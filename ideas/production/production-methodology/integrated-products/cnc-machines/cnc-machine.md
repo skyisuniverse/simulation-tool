@@ -114,6 +114,16 @@ Could such CNC-machine be powered by an LLM with computer vision for object reco
   - differentiation of different types of objects (doors, windows, frames, sheets, etc.
   - differentiation of different types of materials (wood, stone, metal, etc.?)
 
+## LLM costs 
+
+(e.g. for a [wooden shop](ideas/production/production-methodology/integrated-products/buildings/wooden-shop/wooden-shop.md) or any other type of product)
+
+- When assuming assembly of a [wooden shop](ideas/production/production-methodology/integrated-products/buildings/wooden-shop/wooden-shop.md) with LLM (with computer vision, etc.), take into account the cost of usage of LLM
+- What does it imply? **Type of access** to LLM, **paid usage**.
+- Account for such things as possible **rate limits**, etc. (?). What does a user do in case of such? e.g. just wait and try later? (Shouldn’t be the case for paid versions?)
+
+Ideally, it would be nice to have a performant enough LLM hosted locally to use it without limitations and have **predictable AI costs**.
+
 ...
 
 ## Requirements for Tools
