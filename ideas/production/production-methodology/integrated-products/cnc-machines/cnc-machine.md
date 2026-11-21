@@ -127,3 +127,16 @@ Should all those tools have a standard similar connector, that connects the tool
 Should the handle be durable enough in order to withstand the load during operation?
 
 ---
+
+## Simple assembly
+
+In order to work in practice (as an idea and a concept) the CNC-machine must be:
+
+- dead **simple to assemble** (e.g. consider **4 parts** in total) (?)
+- and dead **simple to operate** (ideally - press **1 button, and let AI do the work**).
+- With a possibility to **control step-by-step by verifying AI actions**. 
+- With possibility to **manually tap into any AI / CNC op** be there such a need.
+
+The justification is simple - user of the CNC-machine (e.g. homeowners) already have enough headache to take care of, which means that any suggested tool and automation process should be dead simple. Ideally also cheap.
+
+Which means - it has to practically **make sense**. Like, obviously. Without guesses. The gains have to be evident. (e.g. - plasma CNC). The qualitative difference is obvious - no metal any close even in imagination for nerds, due to lack of knowledge / stereotypes. And whole new world with metal and possible incomes - with improved imagination from [practical evidence](https://www.youtube.com/@jdsgarage701/videos).
