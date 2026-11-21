@@ -128,6 +128,25 @@ Should the handle be durable enough in order to withstand the load during operat
 
 ---
 
+### Considerations for Tools
+
+We’ll probably look for cheap but quality tools to assemble CNC from. Expectations are that initially the CNC might be bulky and spacious - because components will be bought and assembled together (probably in a tool box), not designed from scratch to fit the least space possible. Initially we’ll be optimizing for cost / POC, to prove the design is possible at all. 
+
+Later, it is obvious the tool box with each tool will have to be designed from scratch. This design will also have to be evolved over time, with new releases of tools and accompanying software to ensure better performance and cheaper cost.
+
+- It means the necessity to **manufacture tools themselves**. Things like **motion systems**, **connectors**, etc. in order to produce **compact and quality system**.
+
+- Another option - is to focus on integration. There are a lot of good examples of companies that focus on **vertical integration**. However, does it mean they get all components from aside? They produce it themselves. It is a question though, what components they produce and what they use as ready ones.
+
+We assume the following logic:
+
+1. We first search for existing tools / components to implement the idea
+2. If existing tools / components are absent, we produce our own.
+
+In general, the course is to be able to **produce as much own stuff as possible**. 
+
+---
+
 ## Simple assembly
 
 In order to work in practice (as an idea and a concept) the CNC-machine must be:
