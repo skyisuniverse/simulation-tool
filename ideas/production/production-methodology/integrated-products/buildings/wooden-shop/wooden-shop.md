@@ -10,6 +10,10 @@ Let's assume medium-size 1-story (floor) 1-room shop for 1 person, comfortable f
 
 ## Considerations
 
+Could the tool to build a wooden shop be something like a big open-source [CNC-machine](ideas/production/production-methodology/integrated-products/cnc-machines/cnc-machine.md), that would perform all operations to build the wooden shop entirely autonomously?
+
+All considerations were moved to [CNC-machine (cnc-machine.md)](ideas/production/production-methodology/integrated-products/cnc-machines/cnc-machine.md) in order to be converted into the CNC-machine techspecs. (deduplicate later)
+
 ### Generic operations
 
 - Measuring (e.g. measurements of sizes of building materials, like lengths / widths / thickness of wooden boards)
@@ -109,5 +113,3 @@ How do we implement parallel tool work within a single gantry?
 ### (Optional) (Machine?) Enclosure
 
 Is there a need for an (optional) enclosure? (e.g. in case of bad weather conditions?)
-
----

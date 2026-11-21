@@ -1,0 +1,3 @@
+# Figure. (Currently existing) Production methodology
+
+- [ ] Describe (currently existing) production methodology of Figure Robots
