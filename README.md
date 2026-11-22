@@ -1,5 +1,15 @@
 # 3D Engineering Simulation Tool
 
+## CAD Models
+
+- [Starship CAD Model](ideas/production/production-methodology/integrated-products/rockets/starship/starship.md)
+
+  ![](CAD-models/test-text-to-cad-starship-img/full-stacked/test-text-to-cad-starship-img-fullstack-11.png)
+
+- [Semi CAD Model](ideas/production/production-methodology/integrated-products/trucks/semi/semi.md)
+
+  ![](CAD-models/test-text-to-cad-semi-img/test-text-to-cad-semi-1.png)
+
 ## Gitub Project
 
 - [Project board (in Github Projects)](https://github.com/users/skyisuniverse/projects/4/views/1)
