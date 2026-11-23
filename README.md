@@ -10,6 +10,10 @@
 
   ![](CAD-models/test-text-to-cad-mechazilla-img/1.png)
 
+- [Starlink CAD Model](ideas/production/production-methodology/integrated-products/satellites/starlink/starlink.md)
+
+  ![](CAD-models/test-text-to-cad-starlink-img/13.png)
+
 - [Roadster CAD Model](ideas/production/production-methodology/integrated-products/cars/tesla/roadster/roadster.md)
 
   ![](CAD-models/test-text-to-cad-roadster-img/7.png)
