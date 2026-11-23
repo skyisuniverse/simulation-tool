@@ -6,6 +6,10 @@
 
   ![](CAD-models/test-text-to-cad-starship-img/full-stacked/test-text-to-cad-starship-img-fullstack-11.png)
 
+- [MechaZilla CAD Model](ideas/production/production-methodology/integrated-products/rockets/mechazilla/mechazilla.md)
+
+  ![](CAD-models/test-text-to-cad-mechazilla-img/1.png)
+
 - [Roadster CAD Model](ideas/production/production-methodology/integrated-products/cars/tesla/roadster/roadster.md)
 
   ![](CAD-models/test-text-to-cad-roadster-img/7.png)
