@@ -1,6 +1,6 @@
 {
   "name": "simulation-tool",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "From conversation with Gemini on [Engineering Simulation Tool Architecture](https://share.google/aimode/bx6WT8bia9guHG5Jd)",
   "homepage": "https://github.com/skyisuniverse/simulation-tool#readme",
   "bugs": {

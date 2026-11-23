@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 
 
+## [0.2.0](https://github.com/skyisuniverse/simulation-tool/compare/v0.1.0..v0.2.0) - 2026-11-23
+
+### 🚀 Features
+
+- **(roadster-CAD-model)**: Add a CAD-model of a roadster generated with text-to-cad - ([b2d9143](https://github.com/skyisuniverse/simulation-tool/commit/b2d91438d41845e81c6d2f23effab4afad25d4e7))
+- **(starship-CAD-model)**: Add CAD-model of a Starship generated with text-to-cad & Gemini (Neon) - ([a4eda46](https://github.com/skyisuniverse/simulation-tool/commit/a4eda461b6aa9382f44dddcad8b6a072888cae2a))
+
+### 📚 Documentation
+
+- **(CAD-model-refs)**: Update CAD-model references in docs (starship, semi, repo's README) - ([6082733](https://github.com/skyisuniverse/simulation-tool/commit/6082733cf5a065f57284d189b755fbce3960a505))
+- **(cnc-machine)**: Add considerations for a cnc machine - ([d3a3398](https://github.com/skyisuniverse/simulation-tool/commit/d3a3398e0998318a2f109a9aa28871a783e4f4b8))
+- **(cnc-machine)**: Add considerations of simple assembly and AI control - ([dab17c6](https://github.com/skyisuniverse/simulation-tool/commit/dab17c69437c212d5b4e060415b188359fcbda93))
+- **(cnc-machine)**: Add considerations for own manufacturing of tools - ([8a9f50f](https://github.com/skyisuniverse/simulation-tool/commit/8a9f50f4c65150aa6fbbe1a87eff1e853d9fc8fa))
+- **(cnc-machine)**: List of producible products (with direct consumption value without additional operations) - ([7f1b265](https://github.com/skyisuniverse/simulation-tool/commit/7f1b265dec720011bc81a2e1c398fcda86cf1953))
+- **(cnc-machine)**: Add LLM-costs considerations - ([ae92bfa](https://github.com/skyisuniverse/simulation-tool/commit/ae92bfa915018fcbf8cde2a5985a1fcbd157a17a))
+- **(components)**: Add placeholders for list of components and  production methodology of components (for each integrated product) - ([f84797f](https://github.com/skyisuniverse/simulation-tool/commit/f84797f551681c646553b993dec6144934093035))
+- **(glossary,wooden-shop)**: Add slot extrusion,linear slide to glossary (with examples), to wooden shop cnc considerations - ([c2efebb](https://github.com/skyisuniverse/simulation-tool/commit/c2efebb32c4b8f59330cc312fed795c80c948483))
+- **(kicad, materials)**: Add kicad and materials considerations - ([540a23d](https://github.com/skyisuniverse/simulation-tool/commit/540a23d126497f2b868d0a310d46fb290484668f))
+- **(production-methodology)**: Wooden shop - ([7971514](https://github.com/skyisuniverse/simulation-tool/commit/7971514e5e67594c0a0b2be1411580ea9f8a53c6))
+- **(raptor)**: Add docs for raptor (rocket) engine, structural components - ([b214cb0](https://github.com/skyisuniverse/simulation-tool/commit/b214cb0462bf988cb8ae0ffd975bbde55cdfe77e))
+- **(space-launching)**: Add space-launch considerations (placeholder) - ([1d35aea](https://github.com/skyisuniverse/simulation-tool/commit/1d35aea049a5e4a9e611e86b4826fd71c66c747e))
+- **(starship)**: Add lists of structural components (booster & ship) - ([98eab6f](https://github.com/skyisuniverse/simulation-tool/commit/98eab6fd797faef34eb9a8fd6ce0ff8c7912ea5e))
+- **(techstack-llms)**: Add LLM considerations for agentic design / manufacturing - ([4cf3ae2](https://github.com/skyisuniverse/simulation-tool/commit/4cf3ae2320d01634708b2451cf74ecb4d8d73777))
+- **(wooden-shop)**: Add considerations (cnc) and tools list - ([1b40528](https://github.com/skyisuniverse/simulation-tool/commit/1b40528079d9b30adf295957287467046d0e31c3))
+- **(wooden-shop)**: Add considerations for cnc (gantry, energy distribution, tool box, tool parallel work) - ([39df808](https://github.com/skyisuniverse/simulation-tool/commit/39df808ddeb2ca927aca81726034f3fbc9d7c984))
+
+### ⚙️  Chore
+
+- **(release)**: V0.1.0 - ([313dcd1](https://github.com/skyisuniverse/simulation-tool/commit/313dcd1e8e0df057ac3c8bcc9213ff91f570f4a5))
+
 ## [0.1.0](https://github.com/skyisuniverse/simulation-tool/compare/v0.0.2..v0.1.0) - 2026-11-19
 
 ### 🚀 Features
