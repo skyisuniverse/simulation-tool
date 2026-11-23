@@ -18,6 +18,10 @@
 
   ![](CAD-models/test-text-to-cad-roadster-img/7.png)
 
+- [Cybertruck CAD Model](ideas/production/production-methodology/integrated-products/cars/tesla/cybertruck/cybertruck.md)
+
+  ![](CAD-models/test-text-to-cad-cybertruck-img/10.png)
+
 - [Semi CAD Model](ideas/production/production-methodology/integrated-products/trucks/semi/semi.md)
 
   ![](CAD-models/test-text-to-cad-semi-img/test-text-to-cad-semi-1.png)

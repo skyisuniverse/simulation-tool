@@ -1,0 +1,10 @@
+[
+  {"input": "7be0680d-66b5-56fb-a49b-75fa2cfea013", "camera": "38:15", "preview": true, "outputs": [{"path": "tmp/ct_front_34.png"}]},
+  {"input": "7be0680d-66b5-56fb-a49b-75fa2cfea013", "camera": "218:16", "preview": true, "outputs": [{"path": "tmp/ct_rear_34.png"}]},
+  {"input": "7be0680d-66b5-56fb-a49b-75fa2cfea013", "camera": "right", "preview": true, "outputs": [{"path": "tmp/ct_side.png"}]},
+  {"input": "7be0680d-66b5-56fb-a49b-75fa2cfea013", "camera": "front", "preview": true, "outputs": [{"path": "tmp/ct_front.png"}]},
+  {"input": "7be0680d-66b5-56fb-a49b-75fa2cfea013", "camera": "back", "preview": true, "outputs": [{"path": "tmp/ct_rear.png"}]},
+  {"input": "7be0680d-66b5-56fb-a49b-75fa2cfea013", "camera": "top", "preview": true, "outputs": [{"path": "tmp/ct_top.png"}]},
+  {"input": "7be0680d-66b5-56fb-a49b-75fa2cfea013", "camera": "35:18", "preview": true, "jointValues": "utility_open", "outputs": [{"path": "tmp/ct_open_front.png"}]},
+  {"input": "7be0680d-66b5-56fb-a49b-75fa2cfea013", "camera": "220:20", "preview": true, "jointValues": "utility_open", "outputs": [{"path": "tmp/ct_open_rear.png"}]}
+]
