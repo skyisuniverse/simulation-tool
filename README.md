@@ -6,6 +6,10 @@
 
   ![](CAD-models/test-text-to-cad-starship-img/full-stacked/test-text-to-cad-starship-img-fullstack-11.png)
 
+- [Roadster CAD Model](ideas/production/production-methodology/integrated-products/cars/tesla/roadster/roadster.md)
+
+  ![](CAD-models/test-text-to-cad-roadster-img/7.png)
+
 - [Semi CAD Model](ideas/production/production-methodology/integrated-products/trucks/semi/semi.md)
 
   ![](CAD-models/test-text-to-cad-semi-img/test-text-to-cad-semi-1.png)
