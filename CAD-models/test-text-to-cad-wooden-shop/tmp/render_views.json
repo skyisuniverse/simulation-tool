@@ -1,0 +1,65 @@
+[
+  {
+    "input": "7d6e6008-9797-572a-b821-e8a34e0dc2d9",
+    "camera": "32:18",
+    "preview": true,
+    "jointValues": "closed",
+    "outputs": [{"path": "tmp/shop_hero_closed.png", "width": 1800, "height": 1200}]
+  },
+  {
+    "input": "7d6e6008-9797-572a-b821-e8a34e0dc2d9",
+    "camera": "32:18",
+    "preview": true,
+    "jointValues": "open",
+    "outputs": [{"path": "tmp/shop_hero_open.png", "width": 1800, "height": 1200}]
+  },
+  {
+    "input": "7d6e6008-9797-572a-b821-e8a34e0dc2d9",
+    "camera": "215:20",
+    "preview": true,
+    "jointValues": "closed",
+    "outputs": [{"path": "tmp/shop_rear_iso.png", "width": 1600, "height": 1200}]
+  },
+  {
+    "input": "7d6e6008-9797-572a-b821-e8a34e0dc2d9",
+    "camera": "front",
+    "display": {"mode": "solid"},
+    "outputs": [{"path": "tmp/shop_front_elev.png", "width": 1600, "height": 1200}]
+  },
+  {
+    "input": "7d6e6008-9797-572a-b821-e8a34e0dc2d9",
+    "camera": "right",
+    "display": {"mode": "solid"},
+    "outputs": [{"path": "tmp/shop_right_elev.png", "width": 1600, "height": 1200}]
+  },
+  {
+    "input": "7d6e6008-9797-572a-b821-e8a34e0dc2d9",
+    "camera": "top",
+    "display": {
+      "mode": "solid",
+      "hidden": ["*roof*", "*gable*", "*pendant*", "*signboard*"]
+    },
+    "jointValues": "open",
+    "outputs": [{"path": "tmp/shop_floor_plan.png", "width": 1600, "height": 1200}]
+  },
+  {
+    "input": "7d6e6008-9797-572a-b821-e8a34e0dc2d9",
+    "camera": "35:36",
+    "preview": true,
+    "display": {
+      "hidden": ["*roof*", "*gable*", "*signboard*"]
+    },
+    "jointValues": "open",
+    "outputs": [{"path": "tmp/shop_interior_cutaway.png", "width": 1800, "height": 1200}]
+  },
+  {
+    "input": "7d6e6008-9797-572a-b821-e8a34e0dc2d9",
+    "camera": "35:22",
+    "display": {
+      "mode": "solid",
+      "hidden": ["envelope"]
+    },
+    "jointValues": "ajar",
+    "outputs": [{"path": "tmp/shop_structure_only.png", "width": 1600, "height": 1200}]
+  }
+]

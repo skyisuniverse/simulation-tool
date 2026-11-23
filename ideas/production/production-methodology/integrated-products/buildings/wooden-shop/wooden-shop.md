@@ -1,5 +1,43 @@
 # Wooden Shop
 
+[Wooden Shop - CAD Model](../../../../../../CAD-models/test-text-to-cad-wooden-shop) (generated with [text-to-cad](ideas/techstack/text-to-cad/text-to-cad.md))
+
+[Wooden Shop - CAD Model - Screenshots](../../../../../../CAD-models/test-text-to-cad-wooden-shop-img)
+
+![](../../../../../../CAD-models/test-text-to-cad-wooden-shop-img/1.png)
+
+![](../../../../../../CAD-models/test-text-to-cad-wooden-shop-img/2.png)
+
+![](../../../../../../CAD-models/test-text-to-cad-wooden-shop-img/3.png)
+
+![](../../../../../../CAD-models/test-text-to-cad-wooden-shop-img/4.png)
+
+![](../../../../../../CAD-models/test-text-to-cad-wooden-shop-img/5.png)
+
+![](../../../../../../CAD-models/test-text-to-cad-wooden-shop-img/6.png)
+
+![](../../../../../../CAD-models/test-text-to-cad-wooden-shop-img/7.png)
+
+![](../../../../../../CAD-models/test-text-to-cad-wooden-shop-img/8.png)
+
+![](../../../../../../CAD-models/test-text-to-cad-wooden-shop-img/9.png)
+
+![](../../../../../../CAD-models/test-text-to-cad-wooden-shop-img/10.png)
+
+![](../../../../../../CAD-models/test-text-to-cad-wooden-shop-img/11.png)
+
+![](../../../../../../CAD-models/test-text-to-cad-wooden-shop-img/12.png)
+
+![](../../../../../../CAD-models/test-text-to-cad-wooden-shop-img/13.png)
+
+![](../../../../../../CAD-models/test-text-to-cad-wooden-shop-img/14.png)
+
+![](../../../../../../CAD-models/test-text-to-cad-wooden-shop-img/15.png)
+
+![](../../../../../../CAD-models/test-text-to-cad-wooden-shop-img/16.png)
+
+---
+
 [Conversations with Gemini on a CNC-machine for wooden shop assembly](./conversations.md)
 
 How do we automate production / assembly of wooden shops?

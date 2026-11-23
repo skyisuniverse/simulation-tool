@@ -2,6 +2,10 @@
 
 ## CAD Models
 
+- [Wooden Shop - CAD Model](ideas/production/production-methodology/integrated-products/buildings/wooden-shop/wooden-shop.md)
+
+  ![](CAD-models/test-text-to-cad-wooden-shop-img/1.png)
+
 - [Starship CAD Model](ideas/production/production-methodology/integrated-products/rockets/starship/starship.md)
 
   ![](CAD-models/test-text-to-cad-starship-img/full-stacked/test-text-to-cad-starship-img-fullstack-11.png)
