@@ -9,6 +9,8 @@ Consider a **multi-tool CNC** with [tools](./tools.md):
 - stapler
 - saw
 - painter
+- welder (with [photonic welding](./processes/metal/welding/photonic-welding.md) / [electrical welding](./processes/metal/welding/electrical-arc-welding.md) ?)
+  - how does it affect requirements for [power source (component)](./components/power-source.md) for powering multiple tools, including photonic welder (?) 
 - etc. 
 
 that would allows to work with variety (any) materials - including **wood** and **metal**.
@@ -91,6 +93,8 @@ How can we implement tool- and operation- specific energy distribution in a CNC?
 ### Tool box (tool storage)
 
 Multiple Tools (24? based on [tools](ideas/production/production-methodology/integrated-products/buildings/wooden-shop/tools.md)) could probably be stored in a compact way (e.g. a **tool box**) and taken out of the box and put into work depending on a current needed assembly operation.
+
+([Bambu Lab launches P3C multi-material 3D printer](https://www.voxelmatters.com/bambu-lab-launches-p3c-multi-material-3d-printer/) ? (simpler reference of a compact placement of tools / (unified) materials))
 
 ### Tool parallel work
 
