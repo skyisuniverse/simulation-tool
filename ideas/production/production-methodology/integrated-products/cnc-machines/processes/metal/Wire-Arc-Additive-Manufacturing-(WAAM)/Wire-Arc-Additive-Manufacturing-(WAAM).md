@@ -1,5 +1,9 @@
 # Wire Arc Additive Manufacturing (WAAM)
 
+Same as [Directed Energy Deposition With an Arc (DED-Arc)](../Directed-Energy-Deposition-With-an-Arc-(DED-Arc)/Directed-Energy-Deposition-With-an-Arc-(DED-Arc).md) ?
+
+---
+
 From conversation with Gemini on [Wire Arc Additive Manufacturing](https://share.google/aimode/HP4XuAqKBndWfMw9k)
 
 **Wire Arc Additive Manufacturing (WAAM)** is a **large-scale metal 3D printing process that uses an electric arc to melt metal wire and deposit it layer by layer**. Often guided by a robotic arm or CNC gantry, it builds near-net-shape metal parts and repairs existing components. Under ISO/ASTM 52900, it is classified as **directed energy deposition with an arc (DED-Arc)**.
