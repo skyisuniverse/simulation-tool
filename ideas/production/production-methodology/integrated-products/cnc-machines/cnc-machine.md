@@ -2,18 +2,27 @@
 
 What type of CNC-machine (s?) do we want to produce? Ideally, such that would be capable of producing parts for anything - from desktop tools / devices to rockets / rocket components.
 
-Consider a **multi-tool CNC** with [tools](./tools.md):
+Consider a **multi-tool CNC** with:
 
-- [plasma cutting (for metal)](./tools/plasma.md)
-- [laser (3D-printing metal)](laser.md)
-- stapler
-- saw
-- painter
-- welder (with [photonic welding](./processes/metal/welding/photonic-welding.md) / [electrical welding](./processes/metal/welding/electrical-arc-welding.md) ?)
-  - how does it affect requirements for [power source (component)](./components/power-source.md) for powering multiple tools, including photonic welder (?) 
-- etc. 
+- [tools](./tools.md):
+  - [plasma cutting (for metal)](./tools/plasma.md)
+  - [laser (3D-printing metal)](laser.md)
+  - stapler
+  - saw
+  - painter
+  - welder (with [photonic welding](./processes/metal/welding/photonic-welding.md) / [electrical welding](./processes/metal/welding/electrical-arc-welding.md) ?)
+    - how does it affect requirements for [power source (component)](./components/power-source.md) for powering multiple tools, including photonic welder (?) 
+  - [collaborative robot system](./components/collaborative-robot-system/collaborative-robot-system.md) (?)
+    - should a CNC machine 
+      - have robotic manipulators, that can pickup different tools and perform different operations? That could assume a standardized robotic manipulator design, that takes into account (built-in) features designed for particular specific tools
+        - e.g. channels for fluids / gases / materials / feedstock supplement / etc. depending on specific task / process
+        - other (?)
+      - rely on [Physical AI](./components/collaborative-robot-system/collaborative-robot-system.md) rather than learned behaviour? (actual geometry (wherever applicable) rather than CAD models?)
+  - etc. 
+  
+  that would allows to work with variety (any) materials - including **wood** and **metal**.
 
-that would allows to work with variety (any) materials - including **wood** and **metal**.
+  - [unit tests](./software/unit-tests.md) (that would allow to run a suit of unit-tests across all component contours of the machine to verify quality of the device before usage)
 
 ---
 

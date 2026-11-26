@@ -196,3 +196,30 @@ Would you like to explore a specific part of Stoke Space's propulsion manufactur
 - The **Zenith** booster engine's full-flow staged-combustion hardware
 - The **Andromeda** upper stage's 24-thruster ring and actively cooled heat shield
 - Specific **materials and alloys** used in their 3D printing process
+
+---
+
+## Part 5. Relativity Space
+
+From conversation with Gemini on [how does Relativity Space produce their rocket engines](https://share.google/aimode/39pR1kwuc0gssgit0)
+
+> how does Relativity Space produce their rocket engines? is it Laser Powder Bed Fusion (PBF-LB)?
+
+Yes—Relativity Space uses **Laser Powder Bed Fusion (PBF-LB)** for detailed engine components like 
+- combustion chambers, 
+- nozzles, 
+- and cooling channels, 
+
+alongside **Wire Arc Additive Manufacturing (WAAM)** and traditional manufacturing methods.
+
+### How Relativity Space Makes Its Engines
+
+- **Laser Powder Bed Fusion (PBF-LB)**: Lasers selectively fuse thin layers of metal powder (often only tens of microns thick) one layer at a time. This works well for fine internal features like cooling channels, injectors, and detailed combustion chamber or nozzle parts. NASA's **GRCop** copper alloys (such as GRCop-84 or GRCop-42) are well suited for high-heat thrust chamber parts made with PBF-LB.
+
+- **Wire Arc Additive Manufacturing (WAAM) & Stargate**: Relativity's Stargate 3D-printing platform uses robotic arms and additive processes—including PBF and WAAM—to build large or complex engine hardware (like Aeon R components) faster and iterate quickly on designs.
+
+- **Hybrid Manufacturing**: For the Terran R rocket and Aeon R engines, Relativity pairs additive manufacturing with traditional methods—such as friction stir welding and machining—to balance speed, cost, and performance.
+
+On Reddit's [r/AdditiveManufacturing](https://www.reddit.com/r/AdditiveManufacturing/comments/l5cnvw/whats_the_deal_with_relativity_space_wtf/), opinions are mixed on exact materials and processes, with users noting that while exact recipes can be confidential, commercial suppliers and rocket hardware clues let people infer general alloy and printing approaches.
+
+Are you looking into a specific engine—like **Aeon 1** or **Aeon R**—or curious about how **GRCop copper alloys** handle engine heat?
