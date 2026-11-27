@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 
 
+## [0.3.0](https://github.com/skyisuniverse/simulation-tool/compare/v0.2.0..v0.3.0) - 2026-11-27
+
+### 🚀 Features
+
+- **(cybertruck-CAD-model)**: Add a Cybertruck CAD-model generated with text-to-cad - ([90d43ba](https://github.com/skyisuniverse/simulation-tool/commit/90d43ba60f6f0cad9ef8bff4fc62e7a1db8b7e31))
+- **(mechazilla-CAD-model)**: Add a CAD-model of a MechaZilla tower for Starship generated with text-to-cad - ([a10fb72](https://github.com/skyisuniverse/simulation-tool/commit/a10fb728347189eac637962b75663faea19d9ecd))
+- **(starlink-CAD-model)**: Add a CAD-model of a Starlink satellite generated with text-to-cad - ([0467971](https://github.com/skyisuniverse/simulation-tool/commit/04679716d799eacc25de1d7839d5318098a922bb))
+- **(wooden-shop-CAD-model)**: Add a Wooden Shop CAD-model generated with text-to-cad - ([97dff1a](https://github.com/skyisuniverse/simulation-tool/commit/97dff1adf2a6c9b8251bd49ce50d76ecb8bd8992))
+
+### 📚 Documentation
+
+- **(3D-metal-printing)**: Add docs for DMLS - Direct Metal Laser Sintering - ([1c24959](https://github.com/skyisuniverse/simulation-tool/commit/1c24959853ff9232483fee6455811725376aceb9))
+- **(cars)**: Add market research data for cars, computer, rockets - ([7ae661a](https://github.com/skyisuniverse/simulation-tool/commit/7ae661a9813f889f1bc4ceb4385d2790f0411b52))
+- **(cnc-control)**: Add openbuilds and gsender to docs on cnc-control - ([e32a931](https://github.com/skyisuniverse/simulation-tool/commit/e32a9318a11154d505120dda406a1767f7b75a4c))
+- **(cnc-machine)**: Add docs for collaborative robot system (robotic manipulators, Physical AI), unit tests for cnc-machine - ([53ed3e1](https://github.com/skyisuniverse/simulation-tool/commit/53ed3e1c3b7910a22b17da57108ce1694595e8e2))
+- **(cnc-machine)**: Add docs for Wire Arc Additive Manufacturing (WAAM) - ([eb5d255](https://github.com/skyisuniverse/simulation-tool/commit/eb5d2553ce77fbd6e7207dae6551497e212edc0b))
+- **(cnc-machine)**: Add docs for Directed energy deposition with an arc (DED-Arc) - ([f938be2](https://github.com/skyisuniverse/simulation-tool/commit/f938be2bd07228d80419990742b839c80ddfcbcf))
+- **(cnc-machine)**: Add docs for Electron Beam Directed Energy Deposition (EB-DED) - ([5bc54a3](https://github.com/skyisuniverse/simulation-tool/commit/5bc54a3aa317a878478d40e08e9d47838f51546e))
+- **(cnc-machine)**: Add docs for Laser Directed Energy Deposition (L-DED) - ([62dcbcc](https://github.com/skyisuniverse/simulation-tool/commit/62dcbcc5a1610109982c21602c84a53d97bd968d))
+- **(rocket-engines, photonic-welding)**: Add docs on production methods of rocket engines,  add docs on photonic welding - ([deb1216](https://github.com/skyisuniverse/simulation-tool/commit/deb121690abff6b23fbbef1f1d04d63bf7c167e4))
+- **(wooden-shop)**: Add market research data for wooden shops - ([7447e54](https://github.com/skyisuniverse/simulation-tool/commit/7447e5447928d9b97c9433420ae5f0482cfad93a))
+
+### ⚙️  Chore
+
+- **(release)**: V0.2.0 - ([c97200d](https://github.com/skyisuniverse/simulation-tool/commit/c97200dceb55cd7cbbb5bc568bc0a439b2491d75))
+
 ## [0.2.0](https://github.com/skyisuniverse/simulation-tool/compare/v0.1.0..v0.2.0) - 2026-11-23
 
 ### 🚀 Features
