@@ -26,7 +26,11 @@
 
   ![](CAD-models/test-text-to-cad-cybertruck-img/10.png)
 
-- [Semi CAD Model](ideas/production/production-methodology/integrated-products/trucks/semi/semi.md)
+- [Semi Truck CAD Model (v2)](ideas/production/production-methodology/integrated-products/trucks/semi/semi-v2.md)
+
+  ![](CAD-models/test-text-to-cad-semi-2-img/2.png)
+
+- [Semi CAD Model (v1)](ideas/production/production-methodology/integrated-products/trucks/semi/semi.md)
 
   ![](CAD-models/test-text-to-cad-semi-img/test-text-to-cad-semi-1.png)
 

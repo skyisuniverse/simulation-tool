@@ -1,8 +1,8 @@
 # Semi
 
-[Semi - CAD Model](../../../../../../CAD-models/test-text-to-cad-semi) (generated with [text-to-cad](ideas/techstack/text-to-cad/text-to-cad.md))
+[Semi - CAD Model (v1)](../../../../../../CAD-models/test-text-to-cad-semi) (generated with [text-to-cad](ideas/techstack/text-to-cad/text-to-cad.md))
 
-[Semi - CAD Model - Screenshots](../../../../../../CAD-models/test-text-to-cad-semi-img)
+[Semi - CAD Model (v1) - Screenshots](../../../../../../CAD-models/test-text-to-cad-semi-img)
 
 ![](../../../../../../CAD-models/test-text-to-cad-semi-img/test-text-to-cad-semi-1.png)
 
