@@ -22,6 +22,10 @@
 
   ![](CAD-models/test-text-to-cad-roadster-img/7.png)
 
+- [Roadster (v2) CAD Model](ideas/production/production-methodology/integrated-products/cars/tesla/roadster-v2/roadster-v2.md)
+
+  ![](CAD-models/test-text-to-cad-roadster-2-img/1.png)
+
 - [Cybertruck CAD Model](ideas/production/production-methodology/integrated-products/cars/tesla/cybertruck/cybertruck.md)
 
   ![](CAD-models/test-text-to-cad-cybertruck-img/10.png)
